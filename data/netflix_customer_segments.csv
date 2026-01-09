@@ -1,0 +1,1001 @@
+customer_id,subscription_length_months,customer_satisfaction_score,daily_watch_time_hours,engagement_rate,device_used_most_often,region,payment_history,subscription_plan,churn_status,support_queries_logged,age,monthly_income,promotional_offers_used,number_of_profiles_created,engagement_level,satisfaction_level,churn_risk_score,churn_segment
+C00001,12,10,4.85,4,tablet,europe,delayed,Basic,no,10,33,6250.00,5,2,high,satisfied,40,medium_risk
+C00002,12,8,1.75,9,laptop,europe,delayed,Basic,yes,9,28,7018.00,1,5,low,satisfied,70,high_risk
+C00003,3,4,2.75,9,"smart tv",asia,delayed,Premium,yes,3,18,1055.00,1,5,medium,unsatisfied,50,medium_risk
+C00004,3,7,3.00,9,"smart tv",europe,delayed,Premium,no,5,32,6707.00,5,4,medium,neutral,40,medium_risk
+C00005,24,2,1.37,5,mobile,"north america",delayed,Standard,yes,2,59,1506.00,3,5,low,unsatisfied,80,high_risk
+C00006,3,4,4.95,3,tablet,africa,delayed,Basic,yes,7,69,5581.00,4,3,high,unsatisfied,70,high_risk
+C00007,12,4,0.71,3,tablet,africa,delayed,Standard,no,3,25,2238.00,2,3,low,unsatisfied,80,high_risk
+C00008,6,5,3.54,2,laptop,"south america",delayed,Standard,yes,4,49,3630.00,5,3,medium,neutral,20,low_risk
+C00009,6,9,3.79,1,laptop,africa,delayed,Basic,yes,6,27,4535.00,1,4,medium,satisfied,40,medium_risk
+C00010,3,6,3.61,6,laptop,"north america",delayed,Premium,no,0,56,7395.00,2,1,medium,neutral,20,low_risk
+C00011,1,9,2.88,9,laptop,"north america",delayed,Basic,no,3,27,1660.00,0,2,medium,satisfied,20,low_risk
+C00012,6,7,0.78,6,desktop,europe,delayed,Basic,no,3,44,9436.00,0,5,low,neutral,50,medium_risk
+C00013,3,3,1.17,9,laptop,asia,delayed,Premium,no,8,70,4582.00,0,3,low,unsatisfied,100,high_risk
+C00014,1,2,2.70,3,tablet,"south america",delayed,Standard,no,5,62,3258.00,2,1,medium,unsatisfied,70,high_risk
+C00015,6,3,2.01,6,"smart tv",asia,delayed,Premium,yes,7,36,7283.00,2,1,medium,unsatisfied,70,high_risk
+C00016,3,1,0.77,10,tablet,africa,delayed,Premium,yes,5,27,4807.00,4,5,low,unsatisfied,100,high_risk
+C00017,6,2,0.78,2,laptop,asia,delayed,Basic,yes,10,43,9913.00,3,1,low,unsatisfied,100,high_risk
+C00018,3,3,4.82,2,laptop,africa,delayed,Standard,no,3,60,7265.00,5,3,high,unsatisfied,50,medium_risk
+C00019,1,9,1.08,7,"smart tv",asia,delayed,Basic,yes,9,56,1229.00,0,4,low,satisfied,70,high_risk
+C00020,6,2,4.27,9,desktop,europe,delayed,Basic,yes,6,48,6091.00,4,2,high,unsatisfied,70,high_risk
+C00021,6,3,4.91,3,tablet,asia,delayed,Premium,yes,3,70,5614.00,0,4,high,unsatisfied,50,medium_risk
+C00022,12,4,3.56,6,tablet,africa,delayed,Basic,yes,6,44,8947.00,3,4,medium,unsatisfied,70,high_risk
+C00023,24,7,0.81,1,desktop,"north america",delayed,Premium,yes,7,67,6720.00,3,5,low,neutral,70,high_risk
+C00024,24,5,3.36,8,tablet,asia,delayed,Standard,no,0,43,6368.00,1,5,medium,neutral,20,low_risk
+C00025,6,2,3.11,5,laptop,africa,delayed,Premium,no,4,55,7359.00,0,5,medium,unsatisfied,50,medium_risk
+C00026,1,6,0.77,10,"smart tv","north america",delayed,Basic,no,5,64,3295.00,5,1,low,neutral,70,high_risk
+C00027,24,9,4.40,3,desktop,europe,delayed,Standard,no,9,36,8345.00,2,1,high,satisfied,40,medium_risk
+C00028,3,2,2.11,10,"smart tv","north america",delayed,Standard,no,0,23,8582.00,5,3,medium,unsatisfied,50,medium_risk
+C00029,12,10,0.92,9,laptop,africa,delayed,Basic,yes,6,26,7472.00,2,1,low,satisfied,70,high_risk
+C00030,1,7,2.07,9,laptop,asia,delayed,Basic,yes,10,43,6153.00,0,5,medium,neutral,40,medium_risk
+C00031,12,8,1.41,1,desktop,africa,delayed,Premium,yes,7,20,6097.00,1,5,low,satisfied,70,high_risk
+C00032,12,6,3.77,2,tablet,africa,delayed,Premium,yes,8,56,3059.00,1,2,medium,neutral,40,medium_risk
+C00033,3,9,3.48,6,desktop,europe,delayed,Premium,no,8,25,9767.00,1,2,medium,satisfied,40,medium_risk
+C00034,12,4,4.97,6,laptop,asia,delayed,Premium,no,6,70,2928.00,0,3,high,unsatisfied,70,high_risk
+C00035,3,10,1.68,1,desktop,europe,delayed,Standard,yes,3,37,7751.00,0,1,low,satisfied,50,medium_risk
+C00036,6,1,3.03,5,desktop,"south america",delayed,Basic,yes,6,48,4277.00,4,5,medium,unsatisfied,70,high_risk
+C00037,3,2,1.93,6,mobile,"north america",delayed,Basic,yes,9,25,6098.00,1,4,low,unsatisfied,100,high_risk
+C00038,6,1,1.61,3,desktop,africa,delayed,Basic,no,6,69,6014.00,5,3,low,unsatisfied,100,high_risk
+C00039,6,6,4.93,9,laptop,africa,delayed,Premium,no,4,42,8933.00,5,2,high,neutral,20,low_risk
+C00040,1,6,5.00,5,mobile,"south america",delayed,Basic,no,1,30,1645.00,1,2,high,neutral,20,low_risk
+C00041,1,5,1.04,4,tablet,"north america",delayed,Standard,yes,1,57,1689.00,1,5,low,neutral,50,medium_risk
+C00042,24,4,4.70,8,tablet,asia,delayed,Standard,yes,3,37,2406.00,4,5,high,unsatisfied,50,medium_risk
+C00043,6,3,2.68,10,laptop,"south america",delayed,Premium,no,5,27,5419.00,4,2,medium,unsatisfied,70,high_risk
+C00044,12,3,2.60,9,laptop,asia,delayed,Premium,yes,3,53,3696.00,0,4,medium,unsatisfied,50,medium_risk
+C00045,3,8,3.01,6,"smart tv","south america",delayed,Premium,no,9,34,3487.00,2,2,medium,satisfied,40,medium_risk
+C00046,6,10,0.71,9,laptop,"south america",delayed,Standard,yes,10,44,4510.00,5,1,low,satisfied,70,high_risk
+C00047,24,4,3.50,3,desktop,africa,delayed,Premium,yes,10,56,6064.00,0,4,medium,unsatisfied,70,high_risk
+C00048,6,7,0.58,2,"smart tv",asia,delayed,Premium,no,0,62,7178.00,1,3,low,neutral,50,medium_risk
+C00049,3,1,1.48,9,tablet,africa,delayed,Basic,yes,6,34,9583.00,0,1,low,unsatisfied,100,high_risk
+C00050,24,1,4.83,2,tablet,africa,delayed,Basic,no,5,19,7295.00,1,5,high,unsatisfied,70,high_risk
+C00051,6,5,3.85,4,desktop,europe,delayed,Premium,yes,3,63,6180.00,0,4,medium,neutral,20,low_risk
+C00052,24,6,2.95,2,"smart tv","south america",delayed,Standard,yes,2,68,8261.00,0,2,medium,neutral,20,low_risk
+C00053,24,8,1.23,3,tablet,"north america",delayed,Basic,no,0,56,5247.00,2,3,low,satisfied,50,medium_risk
+C00054,1,5,3.14,9,laptop,europe,delayed,Basic,yes,0,29,7004.00,5,3,medium,neutral,20,low_risk
+C00055,3,5,1.36,4,mobile,"south america",delayed,Standard,yes,5,20,4544.00,1,1,low,neutral,70,high_risk
+C00056,1,9,2.33,5,desktop,africa,delayed,Premium,yes,10,38,3267.00,1,1,medium,satisfied,40,medium_risk
+C00057,1,10,3.17,9,desktop,"north america",delayed,Standard,no,6,58,8364.00,3,4,medium,satisfied,40,medium_risk
+C00058,24,4,2.46,5,"smart tv",asia,delayed,Basic,no,3,48,3936.00,1,5,medium,unsatisfied,50,medium_risk
+C00059,24,2,3.95,2,"smart tv","south america",delayed,Premium,yes,10,64,8518.00,4,3,medium,unsatisfied,70,high_risk
+C00060,24,4,2.83,1,mobile,"north america",delayed,Premium,yes,5,18,1893.00,3,1,medium,unsatisfied,70,high_risk
+C00061,3,6,3.36,7,"smart tv",europe,delayed,Premium,no,2,41,2540.00,1,5,medium,neutral,20,low_risk
+C00062,3,5,2.26,6,desktop,asia,delayed,Premium,yes,0,56,6313.00,4,3,medium,neutral,20,low_risk
+C00063,6,8,4.83,8,"smart tv",asia,delayed,Standard,yes,4,44,1037.00,0,1,high,satisfied,20,low_risk
+C00064,6,5,3.14,1,"smart tv","south america",delayed,Premium,no,5,49,8562.00,5,5,medium,neutral,40,medium_risk
+C00065,6,2,1.93,10,mobile,europe,delayed,Standard,yes,5,27,7201.00,4,4,low,unsatisfied,100,high_risk
+C00066,1,5,2.28,8,desktop,africa,delayed,Premium,no,3,70,7085.00,3,5,medium,neutral,20,low_risk
+C00067,24,5,3.18,8,mobile,asia,delayed,Basic,no,0,61,4698.00,2,5,medium,neutral,20,low_risk
+C00068,12,1,4.32,6,mobile,"north america",delayed,Premium,yes,3,37,3188.00,2,2,high,unsatisfied,50,medium_risk
+C00069,1,1,1.68,3,laptop,asia,delayed,Standard,no,1,67,8818.00,1,5,low,unsatisfied,80,high_risk
+C00070,6,10,1.72,10,desktop,"south america",delayed,Standard,no,9,23,1533.00,2,5,low,satisfied,70,high_risk
+C00071,12,1,2.74,9,tablet,africa,delayed,Basic,no,3,49,649.00,3,2,medium,unsatisfied,50,medium_risk
+C00072,24,2,3.12,3,mobile,africa,delayed,Standard,no,3,31,9897.00,5,4,medium,unsatisfied,50,medium_risk
+C00073,12,10,2.68,7,"smart tv","north america",delayed,Premium,yes,2,26,7357.00,1,3,medium,satisfied,20,low_risk
+C00074,12,6,4.59,7,mobile,"south america",delayed,Standard,yes,10,48,6488.00,2,2,high,neutral,40,medium_risk
+C00075,6,2,1.97,7,mobile,"south america",delayed,Basic,no,8,57,2702.00,0,1,low,unsatisfied,100,high_risk
+C00076,1,6,4.03,10,tablet,"north america",delayed,Standard,no,1,41,3085.00,3,4,high,neutral,20,low_risk
+C00077,12,4,4.84,8,desktop,"south america",delayed,Premium,no,6,36,8691.00,2,3,high,unsatisfied,70,high_risk
+C00078,12,6,3.01,5,laptop,"north america",delayed,Basic,yes,9,38,8645.00,3,3,medium,neutral,40,medium_risk
+C00079,6,6,0.87,3,"smart tv",europe,delayed,Premium,yes,1,44,2082.00,1,3,low,neutral,50,medium_risk
+C00080,12,2,4.42,8,laptop,"north america",delayed,Basic,yes,6,54,3866.00,4,1,high,unsatisfied,70,high_risk
+C00081,1,3,1.06,7,"smart tv","north america",delayed,Standard,yes,9,44,1717.00,4,4,low,unsatisfied,100,high_risk
+C00082,24,9,2.82,6,desktop,"south america",delayed,Premium,yes,7,35,3577.00,0,4,medium,satisfied,40,medium_risk
+C00083,24,5,0.83,8,laptop,europe,delayed,Standard,no,6,70,2676.00,2,3,low,neutral,70,high_risk
+C00084,6,8,1.68,8,tablet,africa,delayed,Basic,yes,5,19,3394.00,0,3,low,satisfied,70,high_risk
+C00085,6,5,4.98,5,mobile,"south america",delayed,Basic,no,1,43,8991.00,3,1,high,neutral,20,low_risk
+C00086,1,7,1.87,8,mobile,africa,delayed,Basic,yes,5,60,6731.00,5,1,low,neutral,70,high_risk
+C00087,6,2,1.21,3,"smart tv",asia,delayed,Basic,yes,1,20,5244.00,4,1,low,unsatisfied,80,high_risk
+C00088,3,3,1.00,9,tablet,africa,delayed,Basic,yes,0,21,7865.00,0,4,low,unsatisfied,80,high_risk
+C00089,1,5,0.96,7,mobile,"south america",delayed,Standard,no,8,31,6014.00,5,2,low,neutral,70,high_risk
+C00090,24,6,2.90,4,laptop,"south america",delayed,Standard,no,6,40,6615.00,5,1,medium,neutral,40,medium_risk
+C00091,6,9,1.84,1,desktop,africa,delayed,Standard,yes,7,47,3897.00,5,5,low,satisfied,70,high_risk
+C00092,12,2,4.57,9,laptop,"south america",delayed,Basic,no,5,36,8823.00,4,2,high,unsatisfied,70,high_risk
+C00093,6,9,1.52,8,"smart tv","north america",delayed,Premium,no,6,18,6381.00,5,5,low,satisfied,70,high_risk
+C00094,24,5,3.25,7,tablet,africa,delayed,Standard,no,1,55,1487.00,2,5,medium,neutral,20,low_risk
+C00095,6,7,3.75,4,laptop,asia,delayed,Premium,yes,4,20,7816.00,1,2,medium,neutral,20,low_risk
+C00096,6,2,1.15,2,mobile,"north america",delayed,Basic,yes,2,49,8135.00,4,1,low,unsatisfied,80,high_risk
+C00097,24,2,3.67,7,desktop,asia,delayed,Basic,no,7,33,4332.00,4,2,medium,unsatisfied,70,high_risk
+C00098,1,1,3.04,3,desktop,asia,delayed,Standard,yes,7,32,9414.00,3,1,medium,unsatisfied,70,high_risk
+C00099,12,1,3.72,8,laptop,"south america",delayed,Premium,yes,1,48,8800.00,3,4,medium,unsatisfied,50,medium_risk
+C00100,6,8,3.12,1,tablet,africa,delayed,Standard,yes,9,54,899.00,0,1,medium,satisfied,40,medium_risk
+C00101,1,3,2.02,7,laptop,europe,delayed,Basic,no,4,38,8587.00,3,2,medium,unsatisfied,50,medium_risk
+C00102,24,8,1.66,1,"smart tv",europe,delayed,Standard,yes,2,49,4434.00,0,1,low,satisfied,50,medium_risk
+C00103,3,8,3.56,10,tablet,europe,delayed,Premium,no,2,37,9734.00,0,1,medium,satisfied,20,low_risk
+C00104,12,10,2.16,4,mobile,"south america",delayed,Standard,yes,8,68,8804.00,0,4,medium,satisfied,40,medium_risk
+C00105,1,7,4.30,7,laptop,asia,delayed,Standard,yes,9,33,1549.00,0,2,high,neutral,40,medium_risk
+C00106,3,6,1.48,2,tablet,asia,delayed,Premium,no,6,52,2472.00,4,4,low,neutral,70,high_risk
+C00107,3,5,3.13,5,"smart tv","south america",delayed,Standard,yes,7,27,8359.00,3,3,medium,neutral,40,medium_risk
+C00108,6,2,4.37,9,laptop,"north america",delayed,Standard,yes,6,21,778.00,1,2,high,unsatisfied,70,high_risk
+C00109,24,6,1.29,6,laptop,"south america",delayed,Premium,yes,3,47,1102.00,4,1,low,neutral,50,medium_risk
+C00110,3,2,2.71,2,desktop,africa,delayed,Standard,no,5,52,3665.00,2,1,medium,unsatisfied,70,high_risk
+C00111,24,3,0.73,9,"smart tv","north america",delayed,Premium,yes,10,24,5934.00,4,5,low,unsatisfied,100,high_risk
+C00112,3,8,3.77,8,"smart tv",asia,delayed,Premium,yes,5,42,5603.00,1,2,medium,satisfied,40,medium_risk
+C00113,1,1,3.61,1,tablet,"south america",delayed,Standard,no,10,30,9852.00,1,1,medium,unsatisfied,70,high_risk
+C00114,3,8,3.27,3,mobile,africa,delayed,Premium,no,7,47,1396.00,4,5,medium,satisfied,40,medium_risk
+C00115,12,1,4.06,4,desktop,"south america",delayed,Standard,no,6,28,2274.00,5,2,high,unsatisfied,70,high_risk
+C00116,1,7,1.48,4,desktop,africa,delayed,Standard,yes,10,55,6990.00,2,5,low,neutral,70,high_risk
+C00117,1,9,2.82,9,laptop,"south america",delayed,Standard,no,8,61,3728.00,3,3,medium,satisfied,40,medium_risk
+C00118,1,3,3.92,9,tablet,"north america",delayed,Standard,yes,9,31,4954.00,3,5,medium,unsatisfied,70,high_risk
+C00119,12,4,2.66,7,mobile,"north america",delayed,Premium,yes,2,29,4886.00,3,4,medium,unsatisfied,50,medium_risk
+C00120,6,4,2.58,6,laptop,"south america",delayed,Basic,yes,2,54,9951.00,3,4,medium,unsatisfied,50,medium_risk
+C00121,6,3,3.86,8,tablet,"north america",delayed,Standard,no,3,36,8857.00,4,2,medium,unsatisfied,50,medium_risk
+C00122,12,8,3.33,6,tablet,europe,delayed,Standard,no,4,66,8145.00,1,5,medium,satisfied,20,low_risk
+C00123,6,5,3.48,8,tablet,"north america",delayed,Standard,yes,9,70,9654.00,1,2,medium,neutral,40,medium_risk
+C00124,24,5,1.55,6,desktop,africa,delayed,Premium,yes,2,31,2896.00,3,5,low,neutral,50,medium_risk
+C00125,3,2,0.92,5,desktop,"south america",delayed,Basic,yes,9,52,8463.00,1,3,low,unsatisfied,100,high_risk
+C00126,1,5,3.04,2,laptop,africa,delayed,Basic,yes,5,27,6089.00,3,2,medium,neutral,40,medium_risk
+C00127,24,5,3.80,9,"smart tv",africa,delayed,Premium,yes,7,26,4761.00,4,2,medium,neutral,40,medium_risk
+C00128,24,8,1.73,6,laptop,africa,delayed,Standard,no,7,58,3597.00,5,5,low,satisfied,70,high_risk
+C00129,24,3,3.59,4,laptop,asia,delayed,Basic,yes,5,67,7761.00,5,4,medium,unsatisfied,70,high_risk
+C00130,6,4,2.71,7,desktop,"south america",delayed,Premium,no,4,49,6118.00,2,2,medium,unsatisfied,50,medium_risk
+C00131,1,1,2.46,5,mobile,africa,delayed,Premium,yes,3,21,2380.00,4,2,medium,unsatisfied,50,medium_risk
+C00132,3,4,3.73,9,tablet,asia,delayed,Standard,no,0,59,3509.00,0,5,medium,unsatisfied,50,medium_risk
+C00133,12,1,1.10,9,"smart tv","north america",delayed,Standard,no,3,54,3271.00,2,4,low,unsatisfied,80,high_risk
+C00134,1,6,3.66,3,laptop,africa,delayed,Premium,no,4,57,6940.00,2,4,medium,neutral,20,low_risk
+C00135,12,10,4.41,7,tablet,asia,delayed,Premium,yes,4,29,4775.00,4,5,high,satisfied,20,low_risk
+C00136,3,8,1.65,4,mobile,"south america",delayed,Basic,yes,9,34,7400.00,3,1,low,satisfied,70,high_risk
+C00137,12,10,0.70,8,mobile,africa,delayed,Standard,no,6,40,2956.00,1,2,low,satisfied,70,high_risk
+C00138,6,3,1.26,6,tablet,asia,delayed,Basic,yes,9,67,9331.00,3,1,low,unsatisfied,100,high_risk
+C00139,3,2,0.98,8,laptop,"south america",delayed,Basic,yes,2,59,5318.00,3,2,low,unsatisfied,80,high_risk
+C00140,12,6,2.91,10,"smart tv",asia,delayed,Premium,yes,6,58,6894.00,0,5,medium,neutral,40,medium_risk
+C00141,6,2,3.65,1,tablet,africa,delayed,Basic,yes,2,20,1430.00,3,1,medium,unsatisfied,50,medium_risk
+C00142,1,6,1.46,1,tablet,africa,delayed,Premium,yes,4,67,7170.00,2,1,low,neutral,50,medium_risk
+C00143,12,9,1.85,4,"smart tv",asia,delayed,Basic,yes,3,38,3265.00,1,3,low,satisfied,50,medium_risk
+C00144,24,10,2.80,10,tablet,asia,delayed,Basic,yes,5,60,5854.00,1,1,medium,satisfied,40,medium_risk
+C00145,12,7,3.27,2,laptop,"south america",delayed,Premium,yes,3,53,3724.00,1,3,medium,neutral,20,low_risk
+C00146,6,10,3.36,2,mobile,europe,delayed,Basic,yes,10,34,5939.00,5,1,medium,satisfied,40,medium_risk
+C00147,24,9,0.65,5,mobile,"north america",delayed,Premium,no,7,65,5687.00,2,2,low,satisfied,70,high_risk
+C00148,6,3,1.85,1,laptop,"north america",delayed,Standard,no,6,21,8330.00,1,2,low,unsatisfied,100,high_risk
+C00149,1,4,3.95,7,"smart tv","north america",delayed,Premium,no,9,57,5845.00,4,4,medium,unsatisfied,70,high_risk
+C00150,3,10,4.57,6,mobile,"south america",delayed,Standard,yes,4,23,5480.00,0,2,high,satisfied,20,low_risk
+C00151,12,2,1.22,6,mobile,africa,delayed,Standard,no,6,21,2719.00,0,5,low,unsatisfied,100,high_risk
+C00152,24,3,4.93,6,laptop,europe,delayed,Basic,yes,1,49,2069.00,3,4,high,unsatisfied,50,medium_risk
+C00153,1,9,4.67,9,"smart tv",africa,delayed,Premium,no,9,18,3192.00,1,4,high,satisfied,40,medium_risk
+C00154,1,10,1.56,8,mobile,asia,delayed,Standard,yes,1,54,5121.00,5,3,low,satisfied,50,medium_risk
+C00155,3,8,4.64,2,mobile,asia,delayed,Premium,no,4,29,3993.00,2,4,high,satisfied,20,low_risk
+C00156,3,2,3.99,6,laptop,"south america",delayed,Basic,yes,3,26,2417.00,3,5,medium,unsatisfied,50,medium_risk
+C00157,24,3,4.22,6,laptop,"south america",delayed,Standard,yes,1,56,9607.00,5,3,high,unsatisfied,50,medium_risk
+C00158,24,7,1.76,1,"smart tv","north america",delayed,Premium,yes,5,36,1383.00,4,3,low,neutral,70,high_risk
+C00159,12,6,1.98,2,desktop,africa,delayed,Premium,yes,5,42,7028.00,4,5,low,neutral,70,high_risk
+C00160,24,8,2.34,6,"smart tv","north america",delayed,Standard,yes,6,22,5000.00,0,4,medium,satisfied,40,medium_risk
+C00161,6,2,4.13,3,tablet,asia,delayed,Premium,no,9,69,1043.00,4,1,high,unsatisfied,70,high_risk
+C00162,6,5,4.59,4,desktop,europe,delayed,Premium,yes,3,62,5021.00,1,5,high,neutral,20,low_risk
+C00163,6,8,2.30,1,laptop,"south america",delayed,Premium,no,1,46,6755.00,1,1,medium,satisfied,20,low_risk
+C00164,1,5,2.53,8,mobile,"north america",delayed,Basic,no,0,25,8774.00,0,1,medium,neutral,20,low_risk
+C00165,6,6,4.01,2,desktop,africa,delayed,Basic,yes,9,21,3764.00,3,5,high,neutral,40,medium_risk
+C00166,1,7,3.88,1,tablet,"south america",delayed,Standard,no,0,50,1154.00,1,5,medium,neutral,20,low_risk
+C00167,1,3,1.06,10,desktop,"south america",delayed,Premium,no,9,29,1172.00,0,2,low,unsatisfied,100,high_risk
+C00168,3,7,3.11,1,mobile,"south america",delayed,Standard,no,0,34,5523.00,5,1,medium,neutral,20,low_risk
+C00169,12,2,2.89,9,tablet,europe,delayed,Premium,yes,8,22,911.00,1,4,medium,unsatisfied,70,high_risk
+C00170,24,7,4.04,2,"smart tv",europe,delayed,Basic,yes,5,67,3677.00,5,4,high,neutral,40,medium_risk
+C00171,1,5,0.99,5,mobile,africa,delayed,Premium,no,4,67,5577.00,0,5,low,neutral,50,medium_risk
+C00172,1,7,4.26,6,laptop,asia,delayed,Premium,no,3,56,1358.00,4,1,high,neutral,20,low_risk
+C00173,12,8,3.13,5,tablet,asia,delayed,Basic,yes,6,43,4870.00,4,1,medium,satisfied,40,medium_risk
+C00174,3,9,4.06,5,mobile,"north america",delayed,Basic,yes,6,50,8641.00,3,5,high,satisfied,40,medium_risk
+C00175,3,3,3.54,3,tablet,africa,delayed,Basic,no,7,60,6922.00,5,3,medium,unsatisfied,70,high_risk
+C00176,1,8,2.65,6,laptop,europe,delayed,Basic,no,2,21,4925.00,2,2,medium,satisfied,20,low_risk
+C00177,6,10,1.27,8,"smart tv","south america",delayed,Basic,no,5,45,7289.00,2,5,low,satisfied,70,high_risk
+C00178,3,5,1.35,8,tablet,"south america",delayed,Standard,yes,5,18,6584.00,3,1,low,neutral,70,high_risk
+C00179,12,8,4.40,8,mobile,"south america",delayed,Premium,yes,6,53,6478.00,1,3,high,satisfied,40,medium_risk
+C00180,3,2,2.13,5,tablet,europe,delayed,Basic,no,2,49,1091.00,0,4,medium,unsatisfied,50,medium_risk
+C00181,24,3,3.77,3,tablet,"south america",delayed,Standard,yes,3,55,3989.00,3,4,medium,unsatisfied,50,medium_risk
+C00182,6,6,4.33,2,desktop,europe,delayed,Standard,no,4,29,8577.00,1,2,high,neutral,20,low_risk
+C00183,12,7,3.82,2,mobile,"south america",delayed,Premium,no,2,22,9202.00,3,2,medium,neutral,20,low_risk
+C00184,6,8,2.25,10,mobile,"south america",delayed,Basic,yes,10,58,8169.00,2,2,medium,satisfied,40,medium_risk
+C00185,24,3,1.72,4,laptop,"south america",delayed,Standard,no,1,47,7084.00,0,2,low,unsatisfied,80,high_risk
+C00186,6,2,4.59,8,"smart tv","south america",delayed,Basic,yes,4,46,4460.00,0,1,high,unsatisfied,50,medium_risk
+C00187,24,5,2.66,1,laptop,asia,delayed,Premium,yes,10,70,6745.00,0,3,medium,neutral,40,medium_risk
+C00188,24,10,0.76,3,laptop,europe,delayed,Basic,no,2,58,9454.00,5,3,low,satisfied,50,medium_risk
+C00189,24,10,2.18,1,desktop,asia,delayed,Premium,no,7,39,3847.00,5,2,medium,satisfied,40,medium_risk
+C00190,12,5,2.32,6,tablet,"south america",delayed,Standard,no,0,55,8022.00,5,1,medium,neutral,20,low_risk
+C00191,3,1,2.95,3,laptop,africa,delayed,Premium,yes,8,64,4309.00,0,1,medium,unsatisfied,70,high_risk
+C00192,24,3,4.61,9,laptop,"south america",delayed,Premium,yes,7,60,5322.00,4,5,high,unsatisfied,70,high_risk
+C00193,3,1,3.00,2,tablet,asia,delayed,Basic,yes,9,50,9944.00,3,5,medium,unsatisfied,70,high_risk
+C00194,12,6,3.25,1,desktop,europe,delayed,Premium,yes,0,27,705.00,2,3,medium,neutral,20,low_risk
+C00195,3,1,0.65,7,mobile,africa,delayed,Basic,yes,3,28,1795.00,5,2,low,unsatisfied,80,high_risk
+C00196,6,3,4.47,3,mobile,europe,delayed,Premium,yes,3,34,8461.00,2,5,high,unsatisfied,50,medium_risk
+C00197,24,10,4.03,1,"smart tv",asia,delayed,Standard,yes,9,66,9071.00,4,2,high,satisfied,40,medium_risk
+C00198,12,1,2.24,3,"smart tv","south america",delayed,Standard,no,1,68,4242.00,1,4,medium,unsatisfied,50,medium_risk
+C00199,24,5,2.56,10,mobile,africa,delayed,Basic,yes,4,18,6086.00,1,4,medium,neutral,20,low_risk
+C00200,3,5,1.58,9,tablet,"south america",delayed,Premium,yes,6,56,2634.00,0,2,low,neutral,70,high_risk
+C00201,6,9,3.30,7,desktop,"north america",delayed,Standard,no,6,33,7239.00,2,1,medium,satisfied,40,medium_risk
+C00202,12,2,3.88,9,tablet,europe,delayed,Standard,no,0,35,7363.00,0,3,medium,unsatisfied,50,medium_risk
+C00203,6,3,4.79,6,mobile,africa,delayed,Premium,yes,6,59,777.00,5,2,high,unsatisfied,70,high_risk
+C00204,1,4,3.14,8,"smart tv",asia,delayed,Standard,no,2,33,3898.00,3,4,medium,unsatisfied,50,medium_risk
+C00205,24,10,4.22,2,desktop,europe,delayed,Premium,no,2,34,5092.00,4,4,high,satisfied,20,low_risk
+C00206,3,3,3.31,5,desktop,africa,delayed,Basic,no,4,39,6417.00,0,4,medium,unsatisfied,50,medium_risk
+C00207,24,6,4.00,1,tablet,"south america",delayed,Premium,yes,5,29,6290.00,1,4,high,neutral,40,medium_risk
+C00208,6,4,3.75,5,laptop,asia,delayed,Standard,yes,0,65,1879.00,5,5,medium,unsatisfied,50,medium_risk
+C00209,24,2,4.94,1,desktop,europe,delayed,Basic,no,3,60,8275.00,5,4,high,unsatisfied,50,medium_risk
+C00210,3,5,4.01,3,tablet,asia,delayed,Premium,no,4,20,1690.00,4,4,high,neutral,20,low_risk
+C00211,6,2,0.92,10,"smart tv",asia,delayed,Standard,yes,2,19,2715.00,5,4,low,unsatisfied,80,high_risk
+C00212,12,2,3.17,2,desktop,"south america",delayed,Standard,yes,1,19,4424.00,2,1,medium,unsatisfied,50,medium_risk
+C00213,12,10,4.65,7,"smart tv",africa,delayed,Standard,no,0,55,8963.00,5,4,high,satisfied,20,low_risk
+C00214,24,2,1.77,9,desktop,asia,delayed,Basic,no,9,67,7468.00,4,4,low,unsatisfied,100,high_risk
+C00215,6,7,4.15,2,laptop,asia,delayed,Standard,yes,8,25,6628.00,5,1,high,neutral,40,medium_risk
+C00216,24,6,4.28,8,"smart tv","north america",delayed,Standard,no,5,58,4426.00,3,4,high,neutral,40,medium_risk
+C00217,1,4,4.63,6,mobile,"north america",delayed,Premium,yes,7,36,7842.00,2,4,high,unsatisfied,70,high_risk
+C00218,24,2,2.13,4,"smart tv",asia,delayed,Basic,no,8,58,857.00,2,5,medium,unsatisfied,70,high_risk
+C00219,24,10,3.25,8,desktop,europe,delayed,Standard,no,1,62,7171.00,3,5,medium,satisfied,20,low_risk
+C00220,6,9,1.05,8,"smart tv","north america",delayed,Premium,no,1,47,6465.00,4,2,low,satisfied,50,medium_risk
+C00221,24,2,4.13,10,laptop,europe,delayed,Basic,yes,8,28,3319.00,2,5,high,unsatisfied,70,high_risk
+C00222,3,8,2.56,2,desktop,africa,delayed,Premium,no,6,70,7370.00,2,2,medium,satisfied,40,medium_risk
+C00223,1,3,1.71,8,laptop,africa,delayed,Basic,no,6,34,3437.00,0,1,low,unsatisfied,100,high_risk
+C00224,24,10,4.87,3,desktop,"south america",delayed,Premium,no,1,64,1137.00,1,2,high,satisfied,20,low_risk
+C00225,1,5,3.46,9,"smart tv",africa,delayed,Premium,yes,2,37,6476.00,2,3,medium,neutral,20,low_risk
+C00226,24,10,1.46,8,laptop,"north america",delayed,Premium,no,4,60,2791.00,4,2,low,satisfied,50,medium_risk
+C00227,6,5,3.49,8,"smart tv",europe,delayed,Standard,no,3,28,2691.00,2,4,medium,neutral,20,low_risk
+C00228,12,6,4.81,6,tablet,"south america",delayed,Basic,yes,10,21,7870.00,2,3,high,neutral,40,medium_risk
+C00229,3,7,3.23,6,"smart tv",asia,delayed,Standard,yes,10,35,2621.00,0,3,medium,neutral,40,medium_risk
+C00230,12,7,1.67,8,tablet,"north america",delayed,Premium,no,6,51,632.00,2,1,low,neutral,70,high_risk
+C00231,3,10,4.18,2,desktop,asia,delayed,Standard,yes,3,59,6134.00,2,5,high,satisfied,20,low_risk
+C00232,6,8,4.04,4,desktop,"south america",delayed,Basic,yes,6,61,5999.00,5,2,high,satisfied,40,medium_risk
+C00233,24,2,4.43,6,tablet,europe,delayed,Basic,no,7,41,7092.00,2,1,high,unsatisfied,70,high_risk
+C00234,12,10,0.70,4,desktop,asia,delayed,Premium,no,2,30,5791.00,0,3,low,satisfied,50,medium_risk
+C00235,1,10,0.62,1,"smart tv","south america",delayed,Premium,no,6,46,9994.00,3,2,low,satisfied,70,high_risk
+C00236,3,7,2.59,2,desktop,"north america",delayed,Standard,yes,7,57,3655.00,0,2,medium,neutral,40,medium_risk
+C00237,1,2,1.62,4,desktop,asia,delayed,Basic,yes,5,47,8462.00,5,4,low,unsatisfied,100,high_risk
+C00238,3,4,4.10,7,mobile,africa,delayed,Basic,no,0,56,4175.00,3,1,high,unsatisfied,50,medium_risk
+C00239,1,3,4.59,5,laptop,"south america",delayed,Basic,yes,4,25,5627.00,1,4,high,unsatisfied,50,medium_risk
+C00240,12,9,1.65,5,desktop,europe,delayed,Standard,no,7,64,2368.00,5,3,low,satisfied,70,high_risk
+C00241,3,1,0.94,8,laptop,asia,delayed,Premium,yes,8,18,7700.00,2,3,low,unsatisfied,100,high_risk
+C00242,12,6,2.84,6,mobile,"north america",delayed,Standard,yes,1,47,6375.00,4,5,medium,neutral,20,low_risk
+C00243,3,3,1.91,9,laptop,europe,delayed,Premium,yes,10,32,6779.00,0,3,low,unsatisfied,100,high_risk
+C00244,6,5,1.15,5,mobile,africa,delayed,Basic,no,0,49,5217.00,4,3,low,neutral,50,medium_risk
+C00245,6,10,4.61,5,tablet,asia,delayed,Basic,no,10,44,1033.00,1,5,high,satisfied,40,medium_risk
+C00246,3,10,4.11,2,mobile,"south america",delayed,Basic,yes,6,41,4206.00,4,2,high,satisfied,40,medium_risk
+C00247,1,5,1.28,10,tablet,africa,delayed,Standard,yes,5,55,9442.00,4,2,low,neutral,70,high_risk
+C00248,24,10,4.92,6,"smart tv",europe,delayed,Standard,yes,0,28,1177.00,4,4,high,satisfied,20,low_risk
+C00249,3,3,3.40,4,desktop,africa,delayed,Standard,yes,4,40,9548.00,5,3,medium,unsatisfied,50,medium_risk
+C00250,1,4,1.36,4,mobile,africa,delayed,Standard,yes,6,44,9301.00,4,2,low,unsatisfied,100,high_risk
+C00251,12,1,1.26,1,desktop,asia,delayed,Standard,no,10,43,9693.00,5,4,low,unsatisfied,100,high_risk
+C00252,12,3,0.51,5,tablet,europe,delayed,Standard,yes,8,62,2036.00,5,5,low,unsatisfied,100,high_risk
+C00253,6,8,2.96,7,desktop,"north america",delayed,Premium,no,9,51,7448.00,4,2,medium,satisfied,40,medium_risk
+C00254,6,2,2.67,9,laptop,"south america",delayed,Standard,no,6,34,6050.00,1,4,medium,unsatisfied,70,high_risk
+C00255,6,10,2.78,3,desktop,"south america",delayed,Basic,yes,1,29,642.00,5,2,medium,satisfied,20,low_risk
+C00256,3,6,4.58,4,mobile,europe,delayed,Standard,yes,1,63,2034.00,4,5,high,neutral,20,low_risk
+C00257,24,7,4.39,8,mobile,"south america",delayed,Standard,yes,7,39,6037.00,3,3,high,neutral,40,medium_risk
+C00258,12,3,1.59,6,"smart tv","south america",delayed,Standard,no,6,25,6141.00,1,5,low,unsatisfied,100,high_risk
+C00259,12,3,1.24,4,mobile,africa,delayed,Standard,no,3,38,4050.00,3,3,low,unsatisfied,80,high_risk
+C00260,24,2,4.72,5,mobile,asia,delayed,Basic,yes,10,66,8018.00,1,5,high,unsatisfied,70,high_risk
+C00261,1,4,1.28,4,mobile,europe,delayed,Basic,yes,3,43,5973.00,1,5,low,unsatisfied,80,high_risk
+C00262,3,8,3.52,1,desktop,"north america",delayed,Premium,yes,9,62,9055.00,3,3,medium,satisfied,40,medium_risk
+C00263,12,3,1.05,3,mobile,europe,delayed,Basic,no,2,60,2094.00,3,3,low,unsatisfied,80,high_risk
+C00264,1,6,4.46,1,"smart tv","north america",delayed,Basic,yes,7,24,6014.00,4,4,high,neutral,40,medium_risk
+C00265,24,4,4.85,2,laptop,"north america",delayed,Standard,yes,8,53,1835.00,3,5,high,unsatisfied,70,high_risk
+C00266,3,4,2.40,4,"smart tv",africa,delayed,Standard,no,3,28,5120.00,5,3,medium,unsatisfied,50,medium_risk
+C00267,6,1,1.76,8,mobile,asia,delayed,Premium,no,5,20,2497.00,1,2,low,unsatisfied,100,high_risk
+C00268,24,6,4.82,2,laptop,africa,delayed,Basic,no,3,51,2649.00,0,4,high,neutral,20,low_risk
+C00269,6,8,3.44,9,desktop,"north america",delayed,Standard,yes,4,31,2546.00,1,1,medium,satisfied,20,low_risk
+C00270,1,1,4.54,4,laptop,europe,delayed,Basic,no,5,57,1560.00,2,4,high,unsatisfied,70,high_risk
+C00271,1,10,3.24,2,mobile,africa,delayed,Standard,no,7,65,2437.00,0,5,medium,satisfied,40,medium_risk
+C00272,24,5,2.27,2,laptop,europe,delayed,Basic,yes,3,43,2759.00,3,5,medium,neutral,20,low_risk
+C00273,12,6,1.42,9,desktop,africa,delayed,Premium,yes,3,47,8883.00,1,1,low,neutral,50,medium_risk
+C00274,6,7,4.57,3,desktop,africa,delayed,Basic,yes,5,42,5359.00,2,4,high,neutral,40,medium_risk
+C00275,24,5,3.80,6,tablet,africa,delayed,Standard,yes,5,60,8810.00,0,2,medium,neutral,40,medium_risk
+C00276,24,1,3.90,9,desktop,"south america",delayed,Premium,yes,7,57,3969.00,3,1,medium,unsatisfied,70,high_risk
+C00277,3,8,3.25,2,laptop,europe,delayed,Basic,yes,3,20,8158.00,3,5,medium,satisfied,20,low_risk
+C00278,1,7,4.17,4,desktop,africa,delayed,Premium,yes,6,26,910.00,5,1,high,neutral,40,medium_risk
+C00279,1,1,3.39,4,laptop,asia,delayed,Premium,yes,10,26,4699.00,4,2,medium,unsatisfied,70,high_risk
+C00280,24,8,4.18,2,tablet,europe,delayed,Basic,no,4,68,2460.00,0,5,high,satisfied,20,low_risk
+C00281,1,6,2.83,1,mobile,europe,delayed,Standard,no,4,68,9479.00,2,2,medium,neutral,20,low_risk
+C00282,3,8,0.84,9,tablet,"south america",delayed,Basic,yes,9,68,8505.00,4,2,low,satisfied,70,high_risk
+C00283,6,1,3.83,6,"smart tv","north america",delayed,Premium,no,2,23,7386.00,4,4,medium,unsatisfied,50,medium_risk
+C00284,6,5,2.29,3,desktop,"north america",delayed,Standard,yes,6,45,9967.00,3,1,medium,neutral,40,medium_risk
+C00285,1,8,1.92,8,"smart tv","south america",delayed,Basic,no,2,51,8262.00,3,5,low,satisfied,50,medium_risk
+C00286,24,5,3.93,1,laptop,africa,delayed,Basic,no,2,48,8197.00,2,4,medium,neutral,20,low_risk
+C00287,1,4,3.89,9,"smart tv","north america",delayed,Premium,no,10,60,5650.00,0,3,medium,unsatisfied,70,high_risk
+C00288,6,9,2.58,2,laptop,"north america",delayed,Basic,yes,8,33,5372.00,1,3,medium,satisfied,40,medium_risk
+C00289,12,1,4.77,9,laptop,"north america",delayed,Basic,yes,9,34,8657.00,1,1,high,unsatisfied,70,high_risk
+C00290,12,3,0.52,10,laptop,africa,delayed,Standard,yes,6,28,4473.00,0,1,low,unsatisfied,100,high_risk
+C00291,12,8,0.67,7,"smart tv",africa,delayed,Standard,no,3,52,9824.00,1,4,low,satisfied,50,medium_risk
+C00292,24,3,4.17,2,mobile,"north america",delayed,Premium,no,0,31,822.00,2,2,high,unsatisfied,50,medium_risk
+C00293,1,1,3.53,2,"smart tv",africa,delayed,Basic,no,2,36,1830.00,4,2,medium,unsatisfied,50,medium_risk
+C00294,24,2,0.52,10,desktop,"north america",delayed,Premium,no,3,54,8145.00,0,1,low,unsatisfied,80,high_risk
+C00295,6,1,3.86,5,desktop,africa,delayed,Basic,yes,1,42,8943.00,3,1,medium,unsatisfied,50,medium_risk
+C00296,6,3,4.45,9,laptop,asia,delayed,Standard,yes,4,43,8496.00,0,4,high,unsatisfied,50,medium_risk
+C00297,6,9,1.06,1,"smart tv",europe,delayed,Standard,yes,10,33,4856.00,2,2,low,satisfied,70,high_risk
+C00298,12,3,0.78,1,mobile,europe,delayed,Basic,yes,5,45,4865.00,4,1,low,unsatisfied,100,high_risk
+C00299,3,4,3.51,5,tablet,"north america",delayed,Standard,yes,9,40,5004.00,3,5,medium,unsatisfied,70,high_risk
+C00300,3,10,3.68,9,laptop,"south america",delayed,Premium,no,4,53,938.00,1,2,medium,satisfied,20,low_risk
+C00301,1,10,2.95,2,"smart tv",africa,delayed,Premium,no,5,34,4755.00,3,5,medium,satisfied,40,medium_risk
+C00302,6,1,2.19,7,tablet,"north america",delayed,Premium,no,4,58,3065.00,2,5,medium,unsatisfied,50,medium_risk
+C00303,1,8,4.45,9,"smart tv",africa,delayed,Premium,yes,8,36,9667.00,3,3,high,satisfied,40,medium_risk
+C00304,6,8,1.62,4,laptop,europe,delayed,Standard,yes,9,48,4646.00,3,1,low,satisfied,70,high_risk
+C00305,24,5,2.04,1,desktop,africa,delayed,Standard,no,4,57,2271.00,0,3,medium,neutral,20,low_risk
+C00306,12,3,1.75,4,desktop,europe,delayed,Premium,no,2,42,2612.00,5,3,low,unsatisfied,80,high_risk
+C00307,3,8,3.65,1,laptop,"south america",delayed,Premium,no,4,44,3666.00,4,4,medium,satisfied,20,low_risk
+C00308,6,9,1.20,7,tablet,asia,delayed,Premium,no,9,55,5765.00,2,3,low,satisfied,70,high_risk
+C00309,1,8,1.66,4,tablet,africa,delayed,Premium,yes,6,29,8223.00,0,4,low,satisfied,70,high_risk
+C00310,6,9,1.45,9,mobile,asia,delayed,Premium,no,2,21,1901.00,2,3,low,satisfied,50,medium_risk
+C00311,3,2,4.61,6,desktop,europe,delayed,Basic,no,0,35,5183.00,0,5,high,unsatisfied,50,medium_risk
+C00312,12,5,1.45,6,"smart tv",europe,delayed,Standard,yes,8,44,5627.00,3,2,low,neutral,70,high_risk
+C00313,3,4,2.84,9,desktop,"south america",delayed,Basic,no,1,69,3558.00,4,1,medium,unsatisfied,50,medium_risk
+C00314,12,5,1.23,3,desktop,europe,delayed,Standard,yes,7,52,8319.00,4,4,low,neutral,70,high_risk
+C00315,24,3,3.69,4,mobile,asia,delayed,Standard,no,5,38,1978.00,5,2,medium,unsatisfied,70,high_risk
+C00316,24,10,3.11,2,mobile,asia,delayed,Basic,no,2,63,6216.00,3,2,medium,satisfied,20,low_risk
+C00317,12,7,3.89,10,mobile,"north america",delayed,Standard,no,6,63,2055.00,5,3,medium,neutral,40,medium_risk
+C00318,24,2,1.08,7,"smart tv",europe,delayed,Basic,no,0,57,8653.00,4,2,low,unsatisfied,80,high_risk
+C00319,6,1,1.27,1,mobile,europe,delayed,Basic,yes,5,33,8586.00,1,3,low,unsatisfied,100,high_risk
+C00320,24,4,3.31,2,tablet,europe,delayed,Standard,no,0,67,9822.00,4,1,medium,unsatisfied,50,medium_risk
+C00321,24,5,1.32,6,mobile,"north america",delayed,Premium,yes,9,18,6230.00,3,3,low,neutral,70,high_risk
+C00322,24,7,0.81,3,mobile,asia,delayed,Premium,no,4,43,681.00,4,1,low,neutral,50,medium_risk
+C00323,1,2,1.87,2,"smart tv","north america",delayed,Premium,no,6,60,8262.00,1,3,low,unsatisfied,100,high_risk
+C00324,1,8,2.26,3,laptop,"north america",delayed,Basic,no,10,65,6127.00,2,2,medium,satisfied,40,medium_risk
+C00325,6,3,3.60,10,laptop,asia,delayed,Basic,no,1,68,9803.00,5,2,medium,unsatisfied,50,medium_risk
+C00326,24,5,4.63,9,tablet,"north america",delayed,Standard,yes,3,51,9812.00,1,5,high,neutral,20,low_risk
+C00327,6,2,3.57,3,"smart tv","south america",delayed,Premium,no,3,44,8418.00,3,4,medium,unsatisfied,50,medium_risk
+C00328,12,3,4.96,2,laptop,"south america",delayed,Standard,yes,0,32,2990.00,2,4,high,unsatisfied,50,medium_risk
+C00329,1,2,3.79,7,tablet,"north america",delayed,Premium,yes,6,69,3211.00,3,1,medium,unsatisfied,70,high_risk
+C00330,1,9,3.11,5,mobile,"north america",delayed,Premium,no,5,34,3098.00,2,5,medium,satisfied,40,medium_risk
+C00331,1,2,1.00,8,"smart tv","south america",delayed,Standard,no,7,48,2858.00,3,4,low,unsatisfied,100,high_risk
+C00332,12,4,4.38,9,tablet,europe,delayed,Standard,yes,5,56,8002.00,1,2,high,unsatisfied,70,high_risk
+C00333,24,10,2.92,7,desktop,"south america",delayed,Basic,no,10,27,865.00,4,2,medium,satisfied,40,medium_risk
+C00334,3,6,4.97,3,mobile,europe,delayed,Basic,no,8,58,5338.00,2,1,high,neutral,40,medium_risk
+C00335,24,10,3.76,4,tablet,"north america",delayed,Premium,no,9,24,2906.00,3,4,medium,satisfied,40,medium_risk
+C00336,3,2,3.34,5,"smart tv","south america",delayed,Premium,yes,1,24,5186.00,0,1,medium,unsatisfied,50,medium_risk
+C00337,12,10,0.86,6,desktop,"south america",delayed,Standard,yes,0,45,2196.00,3,4,low,satisfied,50,medium_risk
+C00338,3,9,0.63,6,laptop,europe,delayed,Premium,yes,1,37,6243.00,0,4,low,satisfied,50,medium_risk
+C00339,24,9,2.74,4,laptop,"north america",delayed,Basic,yes,4,70,7257.00,3,2,medium,satisfied,20,low_risk
+C00340,12,6,4.66,8,"smart tv",africa,delayed,Premium,no,7,43,8803.00,5,2,high,neutral,40,medium_risk
+C00341,1,4,2.76,4,tablet,asia,delayed,Premium,no,6,24,6543.00,4,4,medium,unsatisfied,70,high_risk
+C00342,3,8,3.12,6,mobile,"north america",delayed,Premium,yes,8,46,2580.00,5,3,medium,satisfied,40,medium_risk
+C00343,1,9,3.26,3,desktop,europe,delayed,Basic,yes,3,21,5337.00,3,5,medium,satisfied,20,low_risk
+C00344,24,1,3.25,4,mobile,asia,delayed,Premium,yes,5,62,4015.00,1,1,medium,unsatisfied,70,high_risk
+C00345,12,8,1.57,9,mobile,europe,delayed,Basic,no,10,59,7350.00,2,1,low,satisfied,70,high_risk
+C00346,1,9,1.77,2,tablet,europe,delayed,Standard,yes,5,61,7650.00,3,1,low,satisfied,70,high_risk
+C00347,1,8,4.52,8,"smart tv",asia,delayed,Premium,no,10,54,1302.00,0,1,high,satisfied,40,medium_risk
+C00348,12,10,4.45,3,laptop,"north america",delayed,Basic,no,3,58,3074.00,5,2,high,satisfied,20,low_risk
+C00349,24,4,0.81,2,tablet,"north america",delayed,Basic,no,8,36,7239.00,2,3,low,unsatisfied,100,high_risk
+C00350,3,2,2.18,3,mobile,"north america",delayed,Basic,no,4,64,3254.00,0,4,medium,unsatisfied,50,medium_risk
+C00351,6,4,0.57,9,mobile,"north america",delayed,Basic,yes,0,27,4821.00,5,1,low,unsatisfied,80,high_risk
+C00352,12,6,1.69,2,desktop,asia,delayed,Standard,yes,4,49,9586.00,0,3,low,neutral,50,medium_risk
+C00353,12,10,2.01,4,mobile,europe,delayed,Basic,yes,8,36,4645.00,3,1,medium,satisfied,40,medium_risk
+C00354,24,10,0.87,10,desktop,"south america",delayed,Basic,yes,7,59,5535.00,3,4,low,satisfied,70,high_risk
+C00355,12,4,3.57,2,mobile,africa,delayed,Standard,no,7,70,6126.00,4,4,medium,unsatisfied,70,high_risk
+C00356,24,9,4.11,6,desktop,asia,delayed,Standard,yes,9,24,8893.00,3,4,high,satisfied,40,medium_risk
+C00357,6,6,4.19,7,tablet,"south america",delayed,Standard,yes,0,43,953.00,5,4,high,neutral,20,low_risk
+C00358,24,7,3.74,5,desktop,africa,delayed,Premium,yes,1,35,6162.00,1,5,medium,neutral,20,low_risk
+C00359,12,6,2.48,8,tablet,"south america",delayed,Standard,yes,2,21,813.00,5,1,medium,neutral,20,low_risk
+C00360,6,6,1.11,8,"smart tv",africa,delayed,Premium,no,6,19,7611.00,1,1,low,neutral,70,high_risk
+C00361,6,10,2.50,2,tablet,africa,delayed,Basic,yes,10,31,8804.00,1,1,medium,satisfied,40,medium_risk
+C00362,6,1,1.99,10,laptop,europe,delayed,Premium,yes,3,45,1468.00,3,3,low,unsatisfied,80,high_risk
+C00363,12,9,4.46,6,"smart tv","south america",delayed,Standard,no,6,29,8444.00,2,3,high,satisfied,40,medium_risk
+C00364,12,3,1.37,4,desktop,"south america",delayed,Premium,no,8,47,3065.00,4,3,low,unsatisfied,100,high_risk
+C00365,12,5,4.88,9,laptop,"north america",delayed,Premium,yes,3,24,3569.00,3,3,high,neutral,20,low_risk
+C00366,1,10,4.24,4,tablet,africa,delayed,Premium,yes,0,26,2409.00,4,2,high,satisfied,20,low_risk
+C00367,6,6,4.55,9,desktop,"south america",delayed,Basic,yes,4,32,4808.00,0,4,high,neutral,20,low_risk
+C00368,1,3,4.85,7,desktop,"north america",delayed,Standard,yes,2,55,3565.00,0,1,high,unsatisfied,50,medium_risk
+C00369,12,4,4.11,1,desktop,"north america",delayed,Basic,yes,2,55,7437.00,0,3,high,unsatisfied,50,medium_risk
+C00370,3,2,4.29,9,"smart tv","south america",delayed,Premium,yes,8,43,3659.00,1,4,high,unsatisfied,70,high_risk
+C00371,24,2,3.80,9,"smart tv","north america",delayed,Basic,yes,2,54,6551.00,5,2,medium,unsatisfied,50,medium_risk
+C00372,24,3,2.28,7,laptop,europe,delayed,Basic,no,4,53,7497.00,0,1,medium,unsatisfied,50,medium_risk
+C00373,1,5,3.49,1,mobile,europe,delayed,Basic,no,4,22,7075.00,2,3,medium,neutral,20,low_risk
+C00374,1,4,4.66,1,mobile,europe,delayed,Premium,no,1,34,4860.00,0,4,high,unsatisfied,50,medium_risk
+C00375,24,1,1.97,5,laptop,africa,delayed,Premium,no,6,35,7444.00,3,2,low,unsatisfied,100,high_risk
+C00376,24,9,1.61,6,tablet,europe,delayed,Premium,no,4,42,9543.00,0,2,low,satisfied,50,medium_risk
+C00377,3,4,1.16,8,laptop,africa,delayed,Standard,no,8,18,2809.00,1,3,low,unsatisfied,100,high_risk
+C00378,24,5,3.82,6,tablet,africa,delayed,Premium,yes,7,61,704.00,4,2,medium,neutral,40,medium_risk
+C00379,1,3,3.10,6,desktop,"north america",delayed,Premium,no,5,31,6388.00,4,3,medium,unsatisfied,70,high_risk
+C00380,6,7,4.44,2,tablet,asia,delayed,Premium,yes,2,49,897.00,0,1,high,neutral,20,low_risk
+C00381,3,10,1.30,1,laptop,europe,delayed,Basic,no,10,55,2346.00,5,3,low,satisfied,70,high_risk
+C00382,12,1,3.55,8,laptop,"south america",delayed,Standard,no,9,29,3565.00,1,3,medium,unsatisfied,70,high_risk
+C00383,12,4,4.81,3,tablet,"south america",delayed,Standard,no,2,42,2222.00,2,4,high,unsatisfied,50,medium_risk
+C00384,12,10,2.88,4,mobile,"north america",delayed,Premium,yes,4,26,7165.00,5,4,medium,satisfied,20,low_risk
+C00385,1,5,0.80,9,mobile,europe,delayed,Premium,no,10,54,3109.00,5,3,low,neutral,70,high_risk
+C00386,1,9,2.94,2,desktop,africa,delayed,Standard,yes,1,63,9162.00,0,5,medium,satisfied,20,low_risk
+C00387,1,1,2.16,6,laptop,europe,delayed,Premium,no,8,54,5090.00,1,3,medium,unsatisfied,70,high_risk
+C00388,24,3,3.22,3,"smart tv",europe,delayed,Basic,yes,2,66,1576.00,0,2,medium,unsatisfied,50,medium_risk
+C00389,6,2,2.42,1,mobile,asia,delayed,Premium,no,8,70,5182.00,1,3,medium,unsatisfied,70,high_risk
+C00390,1,4,2.46,6,tablet,europe,delayed,Basic,yes,5,66,6888.00,5,2,medium,unsatisfied,70,high_risk
+C00391,24,3,4.22,6,"smart tv","north america",delayed,Premium,no,1,26,1228.00,1,2,high,unsatisfied,50,medium_risk
+C00392,24,7,1.59,2,tablet,asia,delayed,Premium,no,10,38,1274.00,5,3,low,neutral,70,high_risk
+C00393,24,2,4.54,4,"smart tv",asia,delayed,Standard,no,7,58,3307.00,0,3,high,unsatisfied,70,high_risk
+C00394,3,6,1.80,6,desktop,"north america",delayed,Basic,yes,5,29,5300.00,2,1,low,neutral,70,high_risk
+C00395,3,5,0.98,7,tablet,africa,delayed,Standard,yes,7,30,4086.00,3,1,low,neutral,70,high_risk
+C00396,3,1,2.29,2,"smart tv",europe,delayed,Standard,yes,2,18,5393.00,0,3,medium,unsatisfied,50,medium_risk
+C00397,24,5,1.30,6,desktop,europe,delayed,Premium,no,1,27,1227.00,4,3,low,neutral,50,medium_risk
+C00398,6,4,3.46,3,tablet,"north america",delayed,Premium,no,2,62,1897.00,0,2,medium,unsatisfied,50,medium_risk
+C00399,12,9,2.47,8,laptop,"south america",delayed,Premium,yes,8,52,7879.00,1,1,medium,satisfied,40,medium_risk
+C00400,6,4,4.73,4,mobile,"north america",delayed,Standard,no,8,20,5577.00,1,1,high,unsatisfied,70,high_risk
+C00401,12,9,4.93,3,tablet,"north america",delayed,Premium,yes,0,58,7483.00,5,2,high,satisfied,20,low_risk
+C00402,24,1,4.61,8,laptop,europe,delayed,Premium,no,10,60,2565.00,2,3,high,unsatisfied,70,high_risk
+C00403,1,4,1.00,6,"smart tv",asia,delayed,Basic,no,5,25,6664.00,3,5,low,unsatisfied,100,high_risk
+C00404,3,7,4.56,7,laptop,europe,delayed,Premium,no,0,32,8259.00,5,5,high,neutral,20,low_risk
+C00405,12,7,3.03,7,mobile,asia,delayed,Standard,no,0,19,9921.00,3,2,medium,neutral,20,low_risk
+C00406,6,10,3.38,4,"smart tv","south america",delayed,Premium,yes,7,19,4022.00,0,1,medium,satisfied,40,medium_risk
+C00407,12,3,4.09,3,laptop,europe,delayed,Basic,no,5,49,2423.00,4,2,high,unsatisfied,70,high_risk
+C00408,24,4,0.61,2,"smart tv",africa,delayed,Basic,no,1,61,5398.00,1,5,low,unsatisfied,80,high_risk
+C00409,1,9,1.24,3,"smart tv",africa,delayed,Standard,yes,1,51,8444.00,1,4,low,satisfied,50,medium_risk
+C00410,24,1,2.44,4,desktop,asia,delayed,Standard,yes,0,28,6693.00,0,5,medium,unsatisfied,50,medium_risk
+C00411,24,2,4.38,7,laptop,"south america",delayed,Standard,yes,1,22,5156.00,4,2,high,unsatisfied,50,medium_risk
+C00412,12,6,4.09,5,mobile,europe,delayed,Premium,yes,0,36,4168.00,3,5,high,neutral,20,low_risk
+C00413,6,4,3.56,8,mobile,africa,delayed,Premium,yes,10,37,2589.00,1,4,medium,unsatisfied,70,high_risk
+C00414,1,4,2.05,7,tablet,europe,delayed,Premium,yes,0,48,5983.00,3,4,medium,unsatisfied,50,medium_risk
+C00415,3,3,4.50,10,laptop,africa,delayed,Standard,yes,3,26,5463.00,3,1,high,unsatisfied,50,medium_risk
+C00416,12,4,3.94,9,desktop,europe,delayed,Standard,yes,2,70,7337.00,0,1,medium,unsatisfied,50,medium_risk
+C00417,12,1,3.32,1,tablet,"south america",delayed,Premium,yes,7,40,3088.00,0,1,medium,unsatisfied,70,high_risk
+C00418,1,2,3.30,8,laptop,"north america",delayed,Premium,no,3,43,6750.00,3,5,medium,unsatisfied,50,medium_risk
+C00419,3,9,0.78,10,desktop,asia,delayed,Premium,yes,2,58,6412.00,5,5,low,satisfied,50,medium_risk
+C00420,1,3,1.48,1,laptop,europe,delayed,Basic,yes,3,34,4565.00,0,1,low,unsatisfied,80,high_risk
+C00421,3,10,1.30,3,desktop,europe,delayed,Premium,no,10,22,6805.00,4,2,low,satisfied,70,high_risk
+C00422,12,10,0.52,1,tablet,asia,delayed,Premium,no,9,70,5145.00,0,4,low,satisfied,70,high_risk
+C00423,12,3,2.04,1,desktop,europe,delayed,Standard,no,1,70,3112.00,4,5,medium,unsatisfied,50,medium_risk
+C00424,6,7,3.86,9,mobile,asia,delayed,Basic,no,1,31,9659.00,2,3,medium,neutral,20,low_risk
+C00425,1,9,2.32,4,laptop,africa,delayed,Premium,yes,10,47,1889.00,2,2,medium,satisfied,40,medium_risk
+C00426,3,6,4.64,4,desktop,asia,delayed,Basic,no,10,64,6172.00,0,3,high,neutral,40,medium_risk
+C00427,24,7,1.34,3,tablet,"north america",delayed,Premium,yes,6,38,7075.00,0,5,low,neutral,70,high_risk
+C00428,6,10,2.55,10,mobile,europe,delayed,Premium,yes,4,59,5050.00,5,2,medium,satisfied,20,low_risk
+C00429,1,3,4.63,9,laptop,"south america",delayed,Basic,no,4,65,2764.00,2,4,high,unsatisfied,50,medium_risk
+C00430,6,1,2.63,3,laptop,europe,delayed,Standard,yes,8,23,7044.00,2,1,medium,unsatisfied,70,high_risk
+C00431,1,2,2.76,6,"smart tv","south america",delayed,Basic,no,10,45,9261.00,5,3,medium,unsatisfied,70,high_risk
+C00432,1,2,3.60,6,laptop,africa,delayed,Premium,yes,1,53,8904.00,3,2,medium,unsatisfied,50,medium_risk
+C00433,6,7,2.39,9,mobile,europe,delayed,Premium,no,7,51,5792.00,4,2,medium,neutral,40,medium_risk
+C00434,3,1,4.59,7,desktop,europe,delayed,Basic,no,2,52,5570.00,2,3,high,unsatisfied,50,medium_risk
+C00435,24,3,1.08,9,laptop,europe,delayed,Basic,no,6,34,4086.00,3,2,low,unsatisfied,100,high_risk
+C00436,24,4,1.68,6,mobile,asia,delayed,Standard,yes,0,47,5125.00,4,5,low,unsatisfied,80,high_risk
+C00437,1,8,4.30,8,mobile,africa,delayed,Basic,no,2,45,8759.00,4,1,high,satisfied,20,low_risk
+C00438,12,9,3.34,9,laptop,africa,delayed,Premium,no,7,53,9447.00,5,1,medium,satisfied,40,medium_risk
+C00439,1,9,3.89,2,tablet,africa,delayed,Premium,no,1,53,3343.00,5,5,medium,satisfied,20,low_risk
+C00440,12,4,4.50,3,mobile,asia,delayed,Premium,no,1,64,557.00,2,5,high,unsatisfied,50,medium_risk
+C00441,1,7,3.53,4,tablet,"north america",delayed,Standard,no,5,36,5192.00,3,5,medium,neutral,40,medium_risk
+C00442,1,6,3.86,2,tablet,africa,delayed,Premium,yes,0,53,2158.00,3,3,medium,neutral,20,low_risk
+C00443,1,1,2.78,1,"smart tv",asia,delayed,Standard,yes,2,37,5510.00,4,1,medium,unsatisfied,50,medium_risk
+C00444,24,8,2.86,4,tablet,asia,delayed,Premium,no,0,37,7796.00,3,3,medium,satisfied,20,low_risk
+C00445,6,9,1.11,1,desktop,asia,delayed,Standard,yes,1,42,1925.00,5,3,low,satisfied,50,medium_risk
+C00446,24,6,4.52,6,desktop,africa,delayed,Standard,yes,4,51,543.00,0,1,high,neutral,20,low_risk
+C00447,1,5,4.12,1,"smart tv",europe,delayed,Premium,yes,1,25,5730.00,2,3,high,neutral,20,low_risk
+C00448,1,6,4.63,5,laptop,asia,delayed,Standard,yes,8,48,3088.00,4,5,high,neutral,40,medium_risk
+C00449,3,1,0.90,3,laptop,asia,delayed,Premium,yes,3,54,6021.00,5,3,low,unsatisfied,80,high_risk
+C00450,6,6,4.72,1,laptop,africa,delayed,Standard,no,4,57,6458.00,0,1,high,neutral,20,low_risk
+C00451,3,10,4.51,10,laptop,europe,delayed,Premium,no,4,44,5872.00,2,3,high,satisfied,20,low_risk
+C00452,6,8,1.62,4,"smart tv","north america",delayed,Standard,no,9,65,8952.00,3,1,low,satisfied,70,high_risk
+C00453,12,6,4.27,5,tablet,europe,delayed,Standard,yes,7,25,1607.00,0,4,high,neutral,40,medium_risk
+C00454,6,1,0.64,5,tablet,"south america",delayed,Standard,no,2,31,5059.00,1,1,low,unsatisfied,80,high_risk
+C00455,6,8,3.90,8,tablet,africa,delayed,Premium,yes,6,62,598.00,0,1,medium,satisfied,40,medium_risk
+C00456,24,5,2.65,6,tablet,"north america",delayed,Basic,no,1,35,8771.00,4,2,medium,neutral,20,low_risk
+C00457,1,3,4.44,7,"smart tv","north america",delayed,Basic,no,6,64,7500.00,4,2,high,unsatisfied,70,high_risk
+C00458,6,10,1.18,8,"smart tv","north america",delayed,Premium,yes,9,44,3804.00,1,5,low,satisfied,70,high_risk
+C00459,6,4,0.51,5,desktop,europe,delayed,Premium,no,4,54,3312.00,0,3,low,unsatisfied,80,high_risk
+C00460,3,5,2.93,1,tablet,"north america",delayed,Standard,no,7,21,3332.00,0,1,medium,neutral,40,medium_risk
+C00461,24,4,0.99,7,tablet,"south america",delayed,Premium,yes,2,53,3746.00,2,2,low,unsatisfied,80,high_risk
+C00462,12,8,0.81,6,"smart tv",asia,delayed,Standard,no,4,41,2696.00,2,5,low,satisfied,50,medium_risk
+C00463,12,10,3.77,4,"smart tv","south america",delayed,Standard,no,2,65,2009.00,0,5,medium,satisfied,20,low_risk
+C00464,3,5,2.50,7,mobile,asia,delayed,Basic,yes,3,27,2032.00,1,4,medium,neutral,20,low_risk
+C00465,24,10,3.79,6,laptop,asia,delayed,Premium,yes,0,24,3085.00,0,3,medium,satisfied,20,low_risk
+C00466,6,2,1.69,6,mobile,europe,delayed,Standard,yes,6,43,4953.00,3,5,low,unsatisfied,100,high_risk
+C00467,24,1,3.85,2,mobile,asia,delayed,Basic,no,7,69,3509.00,2,1,medium,unsatisfied,70,high_risk
+C00468,24,7,1.43,2,tablet,europe,delayed,Basic,yes,7,60,1300.00,0,3,low,neutral,70,high_risk
+C00469,1,9,4.54,8,desktop,"south america",delayed,Premium,no,3,27,6791.00,0,3,high,satisfied,20,low_risk
+C00470,24,8,3.40,5,laptop,"north america",delayed,Basic,no,0,59,3885.00,1,4,medium,satisfied,20,low_risk
+C00471,3,6,3.93,5,desktop,"south america",delayed,Standard,no,10,24,3282.00,3,2,medium,neutral,40,medium_risk
+C00472,12,2,4.47,5,laptop,"north america",delayed,Basic,yes,6,30,8753.00,4,1,high,unsatisfied,70,high_risk
+C00473,3,7,3.11,9,laptop,europe,delayed,Standard,yes,2,46,790.00,4,2,medium,neutral,20,low_risk
+C00474,3,10,1.52,6,"smart tv",africa,delayed,Premium,no,10,33,4948.00,2,5,low,satisfied,70,high_risk
+C00475,6,1,2.70,9,"smart tv",asia,delayed,Premium,yes,2,39,3326.00,3,5,medium,unsatisfied,50,medium_risk
+C00476,3,2,1.78,10,"smart tv","south america",delayed,Premium,no,0,22,4419.00,2,2,low,unsatisfied,80,high_risk
+C00477,24,6,3.56,9,mobile,africa,delayed,Standard,no,4,32,5062.00,0,4,medium,neutral,20,low_risk
+C00478,12,5,3.80,7,tablet,europe,delayed,Standard,yes,0,24,6522.00,4,4,medium,neutral,20,low_risk
+C00479,3,5,1.99,3,mobile,"south america",delayed,Basic,no,0,20,736.00,5,3,low,neutral,50,medium_risk
+C00480,12,5,3.08,5,"smart tv",europe,delayed,Basic,no,1,66,4879.00,5,1,medium,neutral,20,low_risk
+C00481,3,2,2.81,6,"smart tv",asia,delayed,Premium,yes,7,39,9163.00,1,5,medium,unsatisfied,70,high_risk
+C00482,3,1,4.40,4,tablet,"north america",delayed,Basic,yes,8,50,8953.00,3,5,high,unsatisfied,70,high_risk
+C00483,12,8,3.91,3,mobile,"south america",delayed,Basic,yes,8,56,6599.00,4,2,medium,satisfied,40,medium_risk
+C00484,6,4,3.75,7,laptop,africa,delayed,Basic,yes,4,57,1262.00,4,4,medium,unsatisfied,50,medium_risk
+C00485,3,9,2.94,1,"smart tv",africa,delayed,Standard,yes,5,25,8553.00,3,4,medium,satisfied,40,medium_risk
+C00486,6,10,3.81,10,"smart tv",asia,delayed,Basic,no,6,56,5970.00,1,1,medium,satisfied,40,medium_risk
+C00487,6,3,2.54,3,laptop,europe,delayed,Premium,yes,2,25,1960.00,2,3,medium,unsatisfied,50,medium_risk
+C00488,24,9,1.47,2,tablet,africa,delayed,Standard,yes,10,48,9357.00,5,3,low,satisfied,70,high_risk
+C00489,1,9,3.66,4,mobile,asia,delayed,Premium,yes,3,52,3942.00,0,4,medium,satisfied,20,low_risk
+C00490,1,2,1.75,9,laptop,asia,delayed,Standard,yes,2,41,5739.00,2,4,low,unsatisfied,80,high_risk
+C00491,1,8,1.42,5,laptop,asia,delayed,Standard,yes,9,32,3562.00,4,1,low,satisfied,70,high_risk
+C00492,12,2,4.60,10,"smart tv",asia,delayed,Standard,yes,2,51,6618.00,0,1,high,unsatisfied,50,medium_risk
+C00493,12,10,1.64,8,desktop,africa,delayed,Premium,no,2,23,1474.00,3,5,low,satisfied,50,medium_risk
+C00494,6,1,4.44,8,laptop,asia,delayed,Basic,no,0,58,2992.00,0,2,high,unsatisfied,50,medium_risk
+C00495,12,5,1.44,8,laptop,"south america",delayed,Standard,no,3,55,8756.00,2,1,low,neutral,50,medium_risk
+C00496,6,3,2.98,4,"smart tv",asia,delayed,Premium,no,10,67,1839.00,0,1,medium,unsatisfied,70,high_risk
+C00497,6,2,2.49,10,"smart tv","north america",delayed,Standard,no,6,37,3914.00,0,3,medium,unsatisfied,70,high_risk
+C00498,1,9,3.87,9,mobile,africa,delayed,Premium,no,2,34,8059.00,1,3,medium,satisfied,20,low_risk
+C00499,3,1,1.99,6,laptop,africa,delayed,Standard,yes,2,68,8029.00,0,3,low,unsatisfied,80,high_risk
+C00500,1,7,3.18,6,tablet,africa,delayed,Standard,yes,9,70,2760.00,1,2,medium,neutral,40,medium_risk
+C00501,3,7,3.38,3,laptop,"north america",delayed,Premium,yes,7,64,4824.00,3,5,medium,neutral,40,medium_risk
+C00502,24,9,0.96,5,mobile,"south america",delayed,Standard,yes,2,18,1465.00,4,1,low,satisfied,50,medium_risk
+C00503,6,8,2.77,5,laptop,europe,delayed,Basic,yes,0,58,7248.00,4,1,medium,satisfied,20,low_risk
+C00504,12,5,4.85,8,mobile,asia,delayed,Standard,no,3,36,1810.00,0,4,high,neutral,20,low_risk
+C00505,12,3,0.99,10,"smart tv","north america",delayed,Standard,no,0,42,4671.00,2,4,low,unsatisfied,80,high_risk
+C00506,12,7,4.93,8,tablet,"south america",delayed,Standard,no,2,21,706.00,2,1,high,neutral,20,low_risk
+C00507,6,7,3.77,8,desktop,asia,delayed,Premium,yes,6,30,1137.00,4,2,medium,neutral,40,medium_risk
+C00508,1,2,0.98,6,"smart tv",europe,delayed,Basic,no,3,65,8097.00,1,2,low,unsatisfied,80,high_risk
+C00509,1,5,3.71,6,laptop,asia,delayed,Standard,no,8,47,1384.00,0,5,medium,neutral,40,medium_risk
+C00510,1,2,4.85,9,"smart tv",africa,delayed,Standard,yes,0,61,1879.00,4,1,high,unsatisfied,50,medium_risk
+C00511,6,9,2.31,9,mobile,"south america",delayed,Standard,yes,8,44,7106.00,2,1,medium,satisfied,40,medium_risk
+C00512,3,4,1.08,9,mobile,africa,delayed,Premium,no,9,32,8511.00,4,2,low,unsatisfied,100,high_risk
+C00513,1,8,2.38,10,desktop,europe,delayed,Premium,no,4,44,1043.00,1,1,medium,satisfied,20,low_risk
+C00514,6,8,3.69,10,"smart tv",africa,delayed,Standard,yes,6,51,1010.00,2,4,medium,satisfied,40,medium_risk
+C00515,3,6,4.79,9,laptop,asia,delayed,Standard,no,8,44,8963.00,3,1,high,neutral,40,medium_risk
+C00516,24,7,4.66,1,"smart tv",asia,delayed,Basic,yes,0,70,5717.00,3,3,high,neutral,20,low_risk
+C00517,24,8,3.96,4,mobile,asia,delayed,Premium,yes,6,37,4957.00,1,1,medium,satisfied,40,medium_risk
+C00518,12,5,1.22,8,tablet,africa,delayed,Standard,yes,6,58,9059.00,3,5,low,neutral,70,high_risk
+C00519,24,3,0.65,10,mobile,africa,delayed,Premium,no,10,32,6309.00,3,2,low,unsatisfied,100,high_risk
+C00520,3,4,3.75,7,desktop,asia,delayed,Standard,no,7,20,3878.00,3,3,medium,unsatisfied,70,high_risk
+C00521,3,9,4.59,4,tablet,"north america",delayed,Premium,no,9,20,3766.00,0,4,high,satisfied,40,medium_risk
+C00522,12,7,0.59,3,"smart tv","south america",delayed,Basic,yes,9,49,9646.00,2,5,low,neutral,70,high_risk
+C00523,1,10,1.95,1,desktop,europe,delayed,Basic,no,10,29,7754.00,1,4,low,satisfied,70,high_risk
+C00524,12,5,2.71,9,mobile,africa,delayed,Premium,no,9,26,7194.00,1,1,medium,neutral,40,medium_risk
+C00525,6,6,3.78,6,tablet,"south america",delayed,Standard,no,9,39,8193.00,2,4,medium,neutral,40,medium_risk
+C00526,6,5,2.69,7,desktop,"north america",delayed,Premium,yes,1,51,9183.00,0,1,medium,neutral,20,low_risk
+C00527,3,1,2.10,10,desktop,"north america",delayed,Basic,no,7,51,8075.00,5,3,medium,unsatisfied,70,high_risk
+C00528,6,2,2.48,9,"smart tv",asia,delayed,Premium,yes,2,19,6963.00,4,2,medium,unsatisfied,50,medium_risk
+C00529,1,6,4.32,6,mobile,africa,delayed,Basic,no,10,66,4053.00,3,5,high,neutral,40,medium_risk
+C00530,3,7,4.71,6,mobile,"north america",delayed,Standard,yes,4,28,9531.00,1,5,high,neutral,20,low_risk
+C00531,24,3,1.34,7,desktop,europe,delayed,Basic,yes,1,35,660.00,0,1,low,unsatisfied,80,high_risk
+C00532,12,7,4.02,2,desktop,africa,delayed,Premium,no,8,53,4902.00,1,3,high,neutral,40,medium_risk
+C00533,1,2,0.55,8,mobile,asia,delayed,Premium,no,2,47,5785.00,2,3,low,unsatisfied,80,high_risk
+C00534,6,9,2.25,4,tablet,"north america",delayed,Premium,yes,0,68,6448.00,2,1,medium,satisfied,20,low_risk
+C00535,12,2,2.31,5,mobile,asia,delayed,Premium,no,2,40,1700.00,0,1,medium,unsatisfied,50,medium_risk
+C00536,6,2,4.73,2,tablet,africa,delayed,Premium,no,2,34,3395.00,1,5,high,unsatisfied,50,medium_risk
+C00537,6,4,1.12,5,laptop,europe,delayed,Premium,yes,7,19,9356.00,2,2,low,unsatisfied,100,high_risk
+C00538,12,2,0.50,3,mobile,"south america",delayed,Standard,yes,7,18,8523.00,2,5,low,unsatisfied,100,high_risk
+C00539,24,8,0.87,7,desktop,"south america",delayed,Standard,yes,6,46,9446.00,2,4,low,satisfied,70,high_risk
+C00540,24,10,4.03,8,mobile,europe,delayed,Premium,yes,7,44,4761.00,5,4,high,satisfied,40,medium_risk
+C00541,3,7,2.42,1,laptop,africa,delayed,Standard,no,6,45,6987.00,4,3,medium,neutral,40,medium_risk
+C00542,24,3,0.72,9,"smart tv",africa,delayed,Basic,no,5,47,1911.00,5,1,low,unsatisfied,100,high_risk
+C00543,1,3,2.33,4,mobile,"north america",delayed,Premium,yes,4,55,5357.00,3,1,medium,unsatisfied,50,medium_risk
+C00544,3,10,1.42,8,desktop,europe,delayed,Basic,yes,0,18,2087.00,0,3,low,satisfied,50,medium_risk
+C00545,6,4,2.77,7,tablet,asia,delayed,Basic,no,7,64,2088.00,5,5,medium,unsatisfied,70,high_risk
+C00546,1,6,3.67,5,tablet,africa,delayed,Premium,no,7,47,9162.00,0,2,medium,neutral,40,medium_risk
+C00547,24,1,2.46,9,"smart tv",asia,delayed,Premium,no,1,54,4212.00,1,3,medium,unsatisfied,50,medium_risk
+C00548,3,4,4.60,3,desktop,"south america",delayed,Premium,yes,3,30,1767.00,3,2,high,unsatisfied,50,medium_risk
+C00549,3,3,0.88,2,desktop,europe,delayed,Standard,yes,6,66,3355.00,4,1,low,unsatisfied,100,high_risk
+C00550,3,4,0.89,8,laptop,"south america",delayed,Basic,yes,0,21,3376.00,2,1,low,unsatisfied,80,high_risk
+C00551,3,10,1.57,9,"smart tv","south america",delayed,Standard,no,1,54,7893.00,0,2,low,satisfied,50,medium_risk
+C00552,1,7,0.92,7,"smart tv",asia,delayed,Standard,yes,4,33,7995.00,0,1,low,neutral,50,medium_risk
+C00553,24,10,0.96,6,tablet,"south america",delayed,Basic,yes,5,26,2921.00,4,4,low,satisfied,70,high_risk
+C00554,12,10,1.86,10,"smart tv",europe,delayed,Premium,yes,4,32,2456.00,4,1,low,satisfied,50,medium_risk
+C00555,12,2,3.21,1,laptop,"north america",delayed,Basic,yes,3,28,1231.00,3,5,medium,unsatisfied,50,medium_risk
+C00556,3,4,2.80,5,desktop,africa,delayed,Basic,no,7,44,3950.00,1,2,medium,unsatisfied,70,high_risk
+C00557,6,9,1.05,5,"smart tv",africa,delayed,Basic,yes,9,34,8297.00,1,5,low,satisfied,70,high_risk
+C00558,24,4,3.91,6,mobile,"north america",delayed,Basic,yes,5,20,4026.00,3,2,medium,unsatisfied,70,high_risk
+C00559,1,7,3.32,7,"smart tv",africa,delayed,Premium,yes,9,25,909.00,0,3,medium,neutral,40,medium_risk
+C00560,3,8,3.08,9,mobile,"south america",delayed,Basic,no,3,60,9799.00,1,1,medium,satisfied,20,low_risk
+C00561,3,5,1.56,9,desktop,"north america",delayed,Standard,yes,4,67,8462.00,5,1,low,neutral,50,medium_risk
+C00562,12,1,4.69,7,desktop,europe,delayed,Premium,yes,1,45,6955.00,2,1,high,unsatisfied,50,medium_risk
+C00563,24,4,3.13,10,desktop,"south america",delayed,Premium,no,6,64,7085.00,3,5,medium,unsatisfied,70,high_risk
+C00564,1,1,1.44,10,desktop,"south america",delayed,Standard,yes,10,20,5587.00,0,4,low,unsatisfied,100,high_risk
+C00565,1,3,0.80,1,tablet,asia,delayed,Basic,yes,5,31,7530.00,2,3,low,unsatisfied,100,high_risk
+C00566,12,7,4.34,3,laptop,"north america",delayed,Standard,yes,1,49,6099.00,5,3,high,neutral,20,low_risk
+C00567,24,6,2.30,3,laptop,asia,delayed,Basic,yes,7,50,5771.00,2,4,medium,neutral,40,medium_risk
+C00568,24,9,3.95,6,laptop,"south america",delayed,Premium,no,8,19,7926.00,1,4,medium,satisfied,40,medium_risk
+C00569,24,7,3.22,2,tablet,"south america",delayed,Standard,yes,4,34,1405.00,4,4,medium,neutral,20,low_risk
+C00570,24,8,1.81,5,"smart tv",africa,delayed,Standard,yes,10,28,8426.00,4,2,low,satisfied,70,high_risk
+C00571,1,9,3.98,9,tablet,asia,delayed,Standard,no,8,62,2551.00,5,1,medium,satisfied,40,medium_risk
+C00572,12,6,3.60,1,mobile,"south america",delayed,Premium,no,0,67,1824.00,2,2,medium,neutral,20,low_risk
+C00573,12,5,3.15,3,laptop,"south america",delayed,Basic,no,6,54,3572.00,0,4,medium,neutral,40,medium_risk
+C00574,1,10,4.12,3,laptop,"south america",delayed,Basic,yes,5,65,9048.00,4,1,high,satisfied,40,medium_risk
+C00575,3,10,1.04,2,laptop,europe,delayed,Premium,yes,2,33,9942.00,2,5,low,satisfied,50,medium_risk
+C00576,1,7,4.68,3,desktop,asia,delayed,Basic,yes,9,44,9874.00,1,1,high,neutral,40,medium_risk
+C00577,12,5,4.72,6,mobile,africa,delayed,Standard,no,10,59,1614.00,5,3,high,neutral,40,medium_risk
+C00578,6,2,2.34,9,mobile,europe,delayed,Basic,yes,0,66,5894.00,4,1,medium,unsatisfied,50,medium_risk
+C00579,3,5,4.12,2,mobile,africa,delayed,Premium,yes,1,45,5574.00,3,4,high,neutral,20,low_risk
+C00580,6,8,3.39,8,tablet,europe,delayed,Basic,yes,3,33,4415.00,5,5,medium,satisfied,20,low_risk
+C00581,1,7,1.89,6,"smart tv","south america",delayed,Standard,no,7,44,1208.00,1,1,low,neutral,70,high_risk
+C00582,1,4,3.80,2,desktop,africa,delayed,Standard,yes,3,52,1700.00,2,4,medium,unsatisfied,50,medium_risk
+C00583,3,3,2.56,8,desktop,asia,delayed,Standard,yes,7,68,2452.00,0,5,medium,unsatisfied,70,high_risk
+C00584,6,3,1.81,2,"smart tv",asia,delayed,Premium,yes,0,47,2190.00,4,2,low,unsatisfied,80,high_risk
+C00585,3,9,4.00,2,tablet,asia,delayed,Standard,no,4,53,1972.00,2,5,high,satisfied,20,low_risk
+C00586,24,2,4.73,10,tablet,africa,delayed,Standard,yes,0,23,510.00,4,1,high,unsatisfied,50,medium_risk
+C00587,3,2,3.92,4,desktop,africa,delayed,Basic,yes,4,64,9950.00,5,4,medium,unsatisfied,50,medium_risk
+C00588,1,10,3.87,10,laptop,"south america",delayed,Basic,yes,1,64,9231.00,4,4,medium,satisfied,20,low_risk
+C00589,12,9,2.86,2,laptop,asia,delayed,Standard,yes,8,45,9989.00,1,5,medium,satisfied,40,medium_risk
+C00590,1,9,2.95,6,mobile,asia,delayed,Basic,yes,0,27,8680.00,4,4,medium,satisfied,20,low_risk
+C00591,6,2,1.60,4,laptop,"north america",delayed,Premium,yes,9,44,8893.00,3,1,low,unsatisfied,100,high_risk
+C00592,12,2,3.92,10,desktop,africa,delayed,Basic,yes,3,60,3993.00,5,3,medium,unsatisfied,50,medium_risk
+C00593,12,4,2.89,1,mobile,europe,delayed,Standard,no,3,50,8599.00,5,4,medium,unsatisfied,50,medium_risk
+C00594,12,9,4.71,9,laptop,"north america",delayed,Premium,yes,8,34,906.00,0,4,high,satisfied,40,medium_risk
+C00595,1,7,2.17,10,desktop,africa,delayed,Basic,yes,9,61,7525.00,5,4,medium,neutral,40,medium_risk
+C00596,24,5,3.36,2,mobile,"north america",delayed,Basic,yes,7,26,5516.00,4,2,medium,neutral,40,medium_risk
+C00597,3,7,4.39,9,tablet,asia,delayed,Basic,no,6,55,9651.00,0,3,high,neutral,40,medium_risk
+C00598,1,4,4.08,2,laptop,africa,delayed,Standard,no,5,18,4197.00,5,4,high,unsatisfied,70,high_risk
+C00599,1,7,0.97,9,"smart tv",asia,delayed,Premium,yes,8,29,8992.00,0,1,low,neutral,70,high_risk
+C00600,12,10,4.59,2,laptop,europe,delayed,Standard,no,1,25,6944.00,0,5,high,satisfied,20,low_risk
+C00601,1,3,2.70,3,desktop,"north america",delayed,Premium,yes,3,47,7139.00,5,3,medium,unsatisfied,50,medium_risk
+C00602,12,7,1.35,1,laptop,africa,delayed,Standard,yes,7,69,6224.00,3,1,low,neutral,70,high_risk
+C00603,12,3,2.67,1,desktop,"south america",delayed,Standard,no,3,21,6574.00,4,4,medium,unsatisfied,50,medium_risk
+C00604,12,9,1.61,7,laptop,"south america",delayed,Basic,no,8,62,4425.00,4,4,low,satisfied,70,high_risk
+C00605,3,6,4.38,10,laptop,asia,delayed,Premium,yes,6,42,1669.00,2,3,high,neutral,40,medium_risk
+C00606,24,5,4.72,9,laptop,"south america",delayed,Standard,no,8,29,8797.00,3,1,high,neutral,40,medium_risk
+C00607,6,6,2.70,5,desktop,asia,delayed,Standard,yes,7,28,6859.00,4,2,medium,neutral,40,medium_risk
+C00608,6,2,2.73,1,laptop,"south america",delayed,Standard,no,3,18,3173.00,5,4,medium,unsatisfied,50,medium_risk
+C00609,6,1,1.38,10,mobile,"south america",delayed,Standard,no,8,29,6021.00,0,1,low,unsatisfied,100,high_risk
+C00610,3,1,3.97,10,"smart tv",asia,delayed,Premium,no,4,30,3071.00,5,3,medium,unsatisfied,50,medium_risk
+C00611,12,10,3.11,9,laptop,africa,delayed,Basic,yes,2,48,2030.00,4,1,medium,satisfied,20,low_risk
+C00612,24,3,4.51,5,desktop,africa,delayed,Premium,no,8,46,9028.00,3,2,high,unsatisfied,70,high_risk
+C00613,3,7,3.95,1,desktop,asia,delayed,Premium,no,9,57,4712.00,5,5,medium,neutral,40,medium_risk
+C00614,24,3,0.66,3,mobile,europe,delayed,Standard,no,5,36,8350.00,0,4,low,unsatisfied,100,high_risk
+C00615,24,1,1.59,9,desktop,"north america",delayed,Premium,no,1,58,9727.00,3,3,low,unsatisfied,80,high_risk
+C00616,3,1,2.43,6,laptop,"north america",delayed,Standard,no,8,63,6442.00,4,1,medium,unsatisfied,70,high_risk
+C00617,1,6,4.50,7,mobile,europe,delayed,Standard,no,4,59,8981.00,2,2,high,neutral,20,low_risk
+C00618,1,5,0.66,10,laptop,"north america",delayed,Premium,no,0,40,3833.00,1,4,low,neutral,50,medium_risk
+C00619,1,10,4.73,7,mobile,asia,delayed,Standard,yes,1,57,4077.00,2,3,high,satisfied,20,low_risk
+C00620,24,7,4.76,6,laptop,africa,delayed,Basic,yes,0,47,942.00,1,5,high,neutral,20,low_risk
+C00621,12,4,4.86,5,mobile,europe,delayed,Basic,yes,2,30,3091.00,1,3,high,unsatisfied,50,medium_risk
+C00622,12,10,4.59,4,laptop,asia,delayed,Standard,yes,1,49,7392.00,4,4,high,satisfied,20,low_risk
+C00623,12,8,1.05,5,laptop,asia,delayed,Standard,yes,6,45,9704.00,0,5,low,satisfied,70,high_risk
+C00624,1,6,3.22,9,tablet,europe,delayed,Standard,no,4,18,9529.00,2,3,medium,neutral,20,low_risk
+C00625,6,4,2.73,9,tablet,africa,delayed,Premium,no,4,32,3407.00,0,1,medium,unsatisfied,50,medium_risk
+C00626,6,6,3.86,8,laptop,asia,delayed,Basic,yes,2,31,3496.00,5,4,medium,neutral,20,low_risk
+C00627,12,3,2.57,7,"smart tv",asia,delayed,Premium,yes,1,64,1015.00,2,5,medium,unsatisfied,50,medium_risk
+C00628,6,5,0.87,4,desktop,"south america",delayed,Basic,yes,8,43,1010.00,5,4,low,neutral,70,high_risk
+C00629,24,9,2.73,6,tablet,europe,delayed,Standard,no,9,27,6869.00,2,4,medium,satisfied,40,medium_risk
+C00630,12,9,0.92,3,mobile,"north america",delayed,Premium,yes,10,46,1241.00,3,2,low,satisfied,70,high_risk
+C00631,24,1,2.40,3,tablet,"north america",delayed,Standard,yes,5,66,3925.00,1,3,medium,unsatisfied,70,high_risk
+C00632,1,3,1.64,7,desktop,"north america",delayed,Standard,no,7,57,1709.00,1,4,low,unsatisfied,100,high_risk
+C00633,1,2,2.82,9,mobile,asia,delayed,Standard,no,3,43,9580.00,1,5,medium,unsatisfied,50,medium_risk
+C00634,6,7,3.86,10,mobile,europe,delayed,Standard,no,3,19,9499.00,3,5,medium,neutral,20,low_risk
+C00635,3,5,3.14,10,laptop,africa,delayed,Basic,yes,4,57,8838.00,2,2,medium,neutral,20,low_risk
+C00636,3,4,2.11,1,tablet,"south america",delayed,Basic,yes,9,62,3942.00,1,4,medium,unsatisfied,70,high_risk
+C00637,6,6,2.46,2,desktop,"north america",delayed,Basic,no,7,30,1851.00,1,1,medium,neutral,40,medium_risk
+C00638,6,8,4.92,10,tablet,africa,delayed,Basic,no,0,48,4753.00,3,5,high,satisfied,20,low_risk
+C00639,24,1,3.47,8,mobile,europe,delayed,Premium,yes,6,39,6514.00,2,5,medium,unsatisfied,70,high_risk
+C00640,1,3,2.50,2,laptop,asia,delayed,Basic,yes,4,41,8649.00,1,5,medium,unsatisfied,50,medium_risk
+C00641,24,1,3.07,5,laptop,"south america",delayed,Basic,yes,0,68,4541.00,5,3,medium,unsatisfied,50,medium_risk
+C00642,1,3,1.27,7,laptop,"north america",delayed,Premium,no,10,58,9209.00,1,3,low,unsatisfied,100,high_risk
+C00643,12,10,3.26,4,mobile,"north america",delayed,Basic,no,2,34,2786.00,3,1,medium,satisfied,20,low_risk
+C00644,24,5,2.42,5,tablet,"south america",delayed,Standard,yes,9,50,9248.00,5,1,medium,neutral,40,medium_risk
+C00645,6,4,0.92,7,mobile,asia,delayed,Premium,yes,2,59,9659.00,1,5,low,unsatisfied,80,high_risk
+C00646,6,10,0.71,5,laptop,"north america",delayed,Standard,yes,4,20,4740.00,0,1,low,satisfied,50,medium_risk
+C00647,6,10,4.59,4,tablet,"north america",delayed,Basic,no,3,55,8163.00,5,3,high,satisfied,20,low_risk
+C00648,24,8,4.12,8,laptop,asia,delayed,Premium,yes,8,21,1572.00,4,5,high,satisfied,40,medium_risk
+C00649,24,3,1.74,9,"smart tv",asia,delayed,Basic,no,7,44,718.00,2,2,low,unsatisfied,100,high_risk
+C00650,6,8,0.89,4,mobile,africa,delayed,Basic,yes,5,62,1384.00,3,1,low,satisfied,70,high_risk
+C00651,24,7,3.09,4,desktop,"south america",delayed,Basic,yes,7,36,774.00,0,2,medium,neutral,40,medium_risk
+C00652,3,6,3.01,4,laptop,"north america",delayed,Standard,yes,10,19,7354.00,1,5,medium,neutral,40,medium_risk
+C00653,6,5,1.25,3,"smart tv",europe,delayed,Premium,no,6,66,5024.00,1,3,low,neutral,70,high_risk
+C00654,6,4,1.88,2,tablet,"north america",delayed,Standard,no,1,36,1280.00,1,4,low,unsatisfied,80,high_risk
+C00655,12,4,3.57,1,"smart tv",asia,delayed,Standard,no,4,23,7917.00,0,2,medium,unsatisfied,50,medium_risk
+C00656,3,5,2.37,2,"smart tv",asia,delayed,Basic,yes,5,54,7748.00,3,2,medium,neutral,40,medium_risk
+C00657,3,6,3.97,3,desktop,africa,delayed,Standard,no,2,63,650.00,4,3,medium,neutral,20,low_risk
+C00658,24,8,2.94,6,tablet,europe,delayed,Standard,no,4,25,898.00,1,2,medium,satisfied,20,low_risk
+C00659,1,4,4.73,5,laptop,"south america",delayed,Premium,no,9,27,3723.00,2,5,high,unsatisfied,70,high_risk
+C00660,6,5,0.74,4,desktop,"north america",delayed,Premium,yes,9,37,7081.00,2,4,low,neutral,70,high_risk
+C00661,12,8,4.67,3,laptop,asia,delayed,Standard,no,3,43,8683.00,1,1,high,satisfied,20,low_risk
+C00662,6,10,3.56,2,laptop,europe,delayed,Basic,yes,3,26,5307.00,2,4,medium,satisfied,20,low_risk
+C00663,3,5,4.54,7,"smart tv","south america",delayed,Basic,no,3,64,4552.00,0,3,high,neutral,20,low_risk
+C00664,24,1,4.77,3,laptop,"north america",delayed,Basic,no,4,56,811.00,4,5,high,unsatisfied,50,medium_risk
+C00665,3,1,3.74,9,"smart tv","north america",delayed,Premium,yes,8,31,5338.00,5,4,medium,unsatisfied,70,high_risk
+C00666,6,10,4.09,7,"smart tv","south america",delayed,Basic,no,0,20,573.00,2,5,high,satisfied,20,low_risk
+C00667,3,3,2.20,10,"smart tv",europe,delayed,Basic,no,9,48,2980.00,4,5,medium,unsatisfied,70,high_risk
+C00668,24,7,0.68,3,mobile,europe,delayed,Standard,yes,0,40,709.00,4,2,low,neutral,50,medium_risk
+C00669,6,8,0.76,5,tablet,europe,delayed,Standard,yes,2,37,9198.00,3,1,low,satisfied,50,medium_risk
+C00670,6,1,2.99,2,mobile,"south america",delayed,Premium,no,7,51,602.00,2,3,medium,unsatisfied,70,high_risk
+C00671,6,4,3.24,1,"smart tv","north america",delayed,Premium,yes,0,65,6003.00,0,2,medium,unsatisfied,50,medium_risk
+C00672,1,7,3.80,4,mobile,europe,delayed,Premium,yes,2,47,5399.00,2,4,medium,neutral,20,low_risk
+C00673,3,4,4.89,8,mobile,africa,delayed,Premium,yes,5,34,9691.00,0,4,high,unsatisfied,70,high_risk
+C00674,24,1,4.35,8,desktop,asia,delayed,Standard,no,9,47,8220.00,4,5,high,unsatisfied,70,high_risk
+C00675,6,3,1.32,5,laptop,"south america",delayed,Premium,yes,3,32,3035.00,1,1,low,unsatisfied,80,high_risk
+C00676,12,3,4.46,9,desktop,"south america",delayed,Premium,yes,3,50,8063.00,5,3,high,unsatisfied,50,medium_risk
+C00677,12,6,4.36,5,desktop,"north america",delayed,Standard,yes,7,70,534.00,2,2,high,neutral,40,medium_risk
+C00678,3,5,2.73,2,mobile,"north america",delayed,Standard,no,3,27,747.00,4,2,medium,neutral,20,low_risk
+C00679,3,4,4.18,3,desktop,asia,delayed,Basic,yes,6,64,5515.00,3,1,high,unsatisfied,70,high_risk
+C00680,24,4,4.24,3,mobile,europe,delayed,Basic,no,7,61,9628.00,1,2,high,unsatisfied,70,high_risk
+C00681,24,2,4.41,6,"smart tv","north america",delayed,Premium,no,4,24,3498.00,5,5,high,unsatisfied,50,medium_risk
+C00682,6,3,4.47,1,mobile,"south america",delayed,Basic,no,9,42,3205.00,3,3,high,unsatisfied,70,high_risk
+C00683,6,6,3.35,1,mobile,europe,delayed,Basic,no,10,61,6255.00,5,2,medium,neutral,40,medium_risk
+C00684,6,1,3.41,2,desktop,europe,delayed,Standard,yes,7,64,3133.00,3,3,medium,unsatisfied,70,high_risk
+C00685,24,7,1.73,6,tablet,africa,delayed,Basic,no,10,40,5740.00,1,1,low,neutral,70,high_risk
+C00686,3,2,2.56,6,mobile,"north america",delayed,Standard,yes,0,41,4293.00,5,4,medium,unsatisfied,50,medium_risk
+C00687,6,6,1.06,8,"smart tv",africa,delayed,Basic,no,8,70,8166.00,2,1,low,neutral,70,high_risk
+C00688,1,9,2.66,9,laptop,asia,delayed,Basic,yes,5,60,1995.00,4,1,medium,satisfied,40,medium_risk
+C00689,24,9,3.40,7,laptop,africa,delayed,Standard,yes,10,29,6818.00,3,1,medium,satisfied,40,medium_risk
+C00690,6,5,3.87,6,"smart tv","north america",delayed,Basic,yes,9,43,5374.00,2,1,medium,neutral,40,medium_risk
+C00691,3,9,0.77,9,mobile,asia,delayed,Basic,yes,10,50,4089.00,5,3,low,satisfied,70,high_risk
+C00692,6,8,1.59,7,mobile,europe,delayed,Basic,no,3,66,5021.00,0,4,low,satisfied,50,medium_risk
+C00693,12,7,1.09,5,tablet,"north america",delayed,Standard,yes,3,70,6509.00,1,2,low,neutral,50,medium_risk
+C00694,12,10,1.24,8,"smart tv","south america",delayed,Premium,no,1,22,7421.00,5,5,low,satisfied,50,medium_risk
+C00695,6,3,2.92,6,laptop,europe,delayed,Basic,yes,0,54,2905.00,1,2,medium,unsatisfied,50,medium_risk
+C00696,12,7,3.70,5,laptop,africa,delayed,Premium,no,6,58,6155.00,4,3,medium,neutral,40,medium_risk
+C00697,3,7,1.51,6,tablet,"south america",delayed,Standard,no,9,24,6565.00,0,5,low,neutral,70,high_risk
+C00698,6,5,1.44,5,mobile,asia,delayed,Premium,yes,9,49,6239.00,1,1,low,neutral,70,high_risk
+C00699,6,9,2.40,5,tablet,"north america",delayed,Standard,yes,1,26,5457.00,3,1,medium,satisfied,20,low_risk
+C00700,1,2,2.25,3,tablet,asia,delayed,Standard,yes,9,48,4801.00,3,5,medium,unsatisfied,70,high_risk
+C00701,24,2,2.61,10,laptop,"north america",delayed,Basic,yes,7,19,1683.00,3,1,medium,unsatisfied,70,high_risk
+C00702,1,6,2.89,8,tablet,africa,delayed,Premium,no,0,32,3964.00,5,1,medium,neutral,20,low_risk
+C00703,3,9,3.14,10,mobile,"south america",delayed,Standard,yes,3,63,7700.00,0,1,medium,satisfied,20,low_risk
+C00704,3,7,4.41,3,laptop,asia,delayed,Premium,yes,2,19,8463.00,5,4,high,neutral,20,low_risk
+C00705,24,7,3.31,10,desktop,africa,delayed,Basic,yes,9,27,6775.00,0,5,medium,neutral,40,medium_risk
+C00706,12,9,2.90,4,desktop,europe,delayed,Premium,yes,2,66,6235.00,4,2,medium,satisfied,20,low_risk
+C00707,3,4,3.92,3,"smart tv","north america",delayed,Standard,yes,2,62,3821.00,5,3,medium,unsatisfied,50,medium_risk
+C00708,1,4,3.52,4,desktop,africa,delayed,Premium,no,7,52,2337.00,3,2,medium,unsatisfied,70,high_risk
+C00709,6,5,1.70,10,"smart tv",asia,delayed,Standard,no,9,34,3137.00,1,1,low,neutral,70,high_risk
+C00710,24,1,1.27,8,"smart tv","south america",delayed,Standard,no,8,32,714.00,4,2,low,unsatisfied,100,high_risk
+C00711,6,10,1.65,3,mobile,europe,delayed,Basic,no,5,41,1357.00,1,1,low,satisfied,70,high_risk
+C00712,1,6,4.32,5,mobile,"north america",delayed,Basic,no,6,62,7624.00,4,5,high,neutral,40,medium_risk
+C00713,1,9,2.64,1,laptop,"south america",delayed,Standard,yes,0,62,8148.00,3,2,medium,satisfied,20,low_risk
+C00714,6,1,4.10,10,mobile,"south america",delayed,Basic,yes,7,31,9672.00,1,2,high,unsatisfied,70,high_risk
+C00715,3,7,0.94,3,"smart tv",asia,delayed,Standard,yes,4,67,1032.00,2,3,low,neutral,50,medium_risk
+C00716,3,4,2.55,5,desktop,"north america",delayed,Basic,yes,9,22,5463.00,1,1,medium,unsatisfied,70,high_risk
+C00717,3,8,2.87,5,"smart tv",africa,delayed,Premium,no,3,61,664.00,5,2,medium,satisfied,20,low_risk
+C00718,1,6,2.64,1,desktop,africa,delayed,Standard,no,10,33,2735.00,5,3,medium,neutral,40,medium_risk
+C00719,3,7,0.87,9,desktop,africa,delayed,Standard,no,5,41,1451.00,4,3,low,neutral,70,high_risk
+C00720,6,9,2.88,9,tablet,africa,delayed,Standard,yes,1,45,5439.00,4,2,medium,satisfied,20,low_risk
+C00721,1,6,4.56,3,desktop,europe,delayed,Basic,yes,6,41,9457.00,1,3,high,neutral,40,medium_risk
+C00722,24,5,1.51,6,tablet,asia,delayed,Standard,yes,5,31,3531.00,2,3,low,neutral,70,high_risk
+C00723,24,6,3.81,4,laptop,"south america",delayed,Premium,no,0,22,526.00,3,1,medium,neutral,20,low_risk
+C00724,3,9,4.34,1,tablet,europe,delayed,Basic,yes,6,39,902.00,4,4,high,satisfied,40,medium_risk
+C00725,3,7,2.75,7,"smart tv",europe,delayed,Standard,yes,0,39,4684.00,3,3,medium,neutral,20,low_risk
+C00726,6,9,2.23,9,tablet,europe,delayed,Standard,yes,4,41,6564.00,1,2,medium,satisfied,20,low_risk
+C00727,3,8,0.99,2,laptop,"north america",delayed,Basic,yes,9,67,3407.00,2,1,low,satisfied,70,high_risk
+C00728,12,6,4.23,5,"smart tv","south america",delayed,Basic,no,10,26,9949.00,4,4,high,neutral,40,medium_risk
+C00729,6,10,3.94,4,desktop,europe,delayed,Standard,yes,6,57,1765.00,1,2,medium,satisfied,40,medium_risk
+C00730,3,1,4.07,6,"smart tv","south america",delayed,Standard,no,5,23,6736.00,0,1,high,unsatisfied,70,high_risk
+C00731,3,5,3.69,7,"smart tv",africa,delayed,Basic,no,0,18,1335.00,4,4,medium,neutral,20,low_risk
+C00732,3,3,3.68,5,mobile,"north america",delayed,Basic,no,10,22,6376.00,3,4,medium,unsatisfied,70,high_risk
+C00733,1,9,4.28,2,desktop,africa,delayed,Standard,yes,0,30,5896.00,4,1,high,satisfied,20,low_risk
+C00734,24,10,4.99,2,"smart tv",europe,delayed,Premium,yes,6,35,5855.00,0,1,high,satisfied,40,medium_risk
+C00735,1,1,4.28,9,laptop,europe,delayed,Standard,yes,0,39,8015.00,2,5,high,unsatisfied,50,medium_risk
+C00736,24,7,3.25,1,"smart tv",africa,delayed,Premium,yes,10,69,4794.00,1,1,medium,neutral,40,medium_risk
+C00737,12,1,1.51,7,mobile,"south america",delayed,Basic,no,8,57,6405.00,2,1,low,unsatisfied,100,high_risk
+C00738,3,1,4.45,9,mobile,asia,delayed,Basic,no,9,53,8246.00,4,2,high,unsatisfied,70,high_risk
+C00739,1,3,1.64,3,laptop,"south america",delayed,Basic,no,3,27,2490.00,2,2,low,unsatisfied,80,high_risk
+C00740,3,3,0.87,10,"smart tv",asia,delayed,Basic,yes,7,61,9455.00,4,4,low,unsatisfied,100,high_risk
+C00741,24,9,1.42,6,mobile,asia,delayed,Standard,yes,8,59,9449.00,4,1,low,satisfied,70,high_risk
+C00742,6,7,2.32,3,desktop,"south america",delayed,Standard,yes,6,37,7067.00,1,3,medium,neutral,40,medium_risk
+C00743,12,4,3.62,3,mobile,"south america",delayed,Basic,yes,5,25,6202.00,3,3,medium,unsatisfied,70,high_risk
+C00744,24,8,2.86,5,tablet,africa,delayed,Basic,no,4,52,7842.00,3,1,medium,satisfied,20,low_risk
+C00745,1,9,2.34,10,tablet,africa,delayed,Premium,yes,3,27,6645.00,4,3,medium,satisfied,20,low_risk
+C00746,6,4,3.32,6,laptop,"north america",delayed,Basic,no,6,63,3952.00,2,2,medium,unsatisfied,70,high_risk
+C00747,6,10,4.83,10,tablet,asia,delayed,Standard,no,2,42,8787.00,5,2,high,satisfied,20,low_risk
+C00748,1,2,2.15,9,tablet,europe,delayed,Premium,no,1,56,5507.00,2,1,medium,unsatisfied,50,medium_risk
+C00749,12,10,0.85,4,"smart tv",europe,delayed,Basic,yes,7,22,7770.00,1,3,low,satisfied,70,high_risk
+C00750,12,4,4.68,2,laptop,africa,delayed,Basic,yes,4,19,1727.00,1,5,high,unsatisfied,50,medium_risk
+C00751,12,8,4.30,2,desktop,europe,delayed,Standard,no,2,57,1359.00,5,4,high,satisfied,20,low_risk
+C00752,12,9,2.37,6,"smart tv","south america",delayed,Standard,no,6,49,2730.00,1,4,medium,satisfied,40,medium_risk
+C00753,1,5,1.10,5,mobile,asia,delayed,Basic,yes,5,19,3648.00,2,1,low,neutral,70,high_risk
+C00754,1,2,2.16,6,tablet,"south america",delayed,Basic,no,2,54,9695.00,3,3,medium,unsatisfied,50,medium_risk
+C00755,24,6,1.82,4,"smart tv","north america",delayed,Standard,yes,5,49,8151.00,5,4,low,neutral,70,high_risk
+C00756,1,5,2.83,6,laptop,asia,delayed,Premium,yes,7,48,3489.00,0,3,medium,neutral,40,medium_risk
+C00757,24,8,2.96,6,mobile,"south america",delayed,Standard,no,4,24,3513.00,2,3,medium,satisfied,20,low_risk
+C00758,24,10,3.84,2,tablet,"south america",delayed,Standard,yes,8,22,4694.00,2,1,medium,satisfied,40,medium_risk
+C00759,6,3,1.58,1,mobile,"south america",delayed,Standard,no,8,58,4513.00,1,2,low,unsatisfied,100,high_risk
+C00760,3,6,2.32,5,laptop,"south america",delayed,Premium,yes,9,20,8100.00,4,3,medium,neutral,40,medium_risk
+C00761,6,10,0.51,4,tablet,africa,delayed,Premium,no,5,40,4090.00,1,3,low,satisfied,70,high_risk
+C00762,12,1,1.08,2,tablet,asia,delayed,Basic,yes,7,63,8183.00,4,4,low,unsatisfied,100,high_risk
+C00763,1,3,3.52,7,laptop,asia,delayed,Basic,yes,5,47,4022.00,0,1,medium,unsatisfied,70,high_risk
+C00764,6,2,3.21,6,"smart tv",africa,delayed,Premium,yes,6,29,3085.00,5,4,medium,unsatisfied,70,high_risk
+C00765,12,9,3.21,7,tablet,africa,delayed,Basic,yes,1,65,2317.00,2,2,medium,satisfied,20,low_risk
+C00766,6,8,0.99,7,"smart tv",europe,delayed,Basic,no,6,26,3665.00,1,3,low,satisfied,70,high_risk
+C00767,12,1,3.68,1,laptop,asia,delayed,Basic,yes,8,28,3664.00,3,2,medium,unsatisfied,70,high_risk
+C00768,12,1,3.25,1,mobile,asia,delayed,Standard,yes,5,34,2297.00,2,5,medium,unsatisfied,70,high_risk
+C00769,1,7,3.34,3,mobile,"north america",delayed,Standard,yes,7,49,6561.00,3,5,medium,neutral,40,medium_risk
+C00770,1,9,1.37,5,laptop,"north america",delayed,Premium,yes,10,49,8200.00,5,1,low,satisfied,70,high_risk
+C00771,6,5,1.15,1,"smart tv",europe,delayed,Basic,yes,9,69,2050.00,1,1,low,neutral,70,high_risk
+C00772,3,6,2.32,7,desktop,asia,delayed,Premium,no,1,38,1848.00,2,3,medium,neutral,20,low_risk
+C00773,3,6,0.60,5,laptop,asia,delayed,Premium,yes,6,23,5306.00,4,3,low,neutral,70,high_risk
+C00774,24,8,3.07,4,laptop,"north america",delayed,Basic,no,0,61,2649.00,4,3,medium,satisfied,20,low_risk
+C00775,6,2,2.43,7,laptop,asia,delayed,Basic,no,4,27,2232.00,3,1,medium,unsatisfied,50,medium_risk
+C00776,1,4,2.30,6,desktop,europe,delayed,Basic,yes,9,21,5311.00,0,4,medium,unsatisfied,70,high_risk
+C00777,1,5,1.98,7,desktop,"north america",delayed,Premium,yes,3,51,6143.00,5,4,low,neutral,50,medium_risk
+C00778,3,1,4.14,10,mobile,"north america",delayed,Standard,yes,8,62,1371.00,1,3,high,unsatisfied,70,high_risk
+C00779,1,4,0.69,8,"smart tv","south america",delayed,Premium,yes,4,42,5692.00,3,1,low,unsatisfied,80,high_risk
+C00780,3,3,4.57,2,desktop,asia,delayed,Premium,yes,9,36,4908.00,2,3,high,unsatisfied,70,high_risk
+C00781,6,6,3.50,2,laptop,asia,delayed,Premium,no,1,68,5061.00,4,4,medium,neutral,20,low_risk
+C00782,6,2,1.03,7,"smart tv",asia,delayed,Standard,no,9,69,2174.00,5,3,low,unsatisfied,100,high_risk
+C00783,24,6,1.84,8,desktop,asia,delayed,Premium,yes,8,28,3990.00,4,5,low,neutral,70,high_risk
+C00784,3,10,2.15,8,"smart tv","south america",delayed,Premium,no,3,46,9021.00,3,2,medium,satisfied,20,low_risk
+C00785,6,2,1.95,4,"smart tv",europe,delayed,Standard,yes,0,54,1514.00,4,5,low,unsatisfied,80,high_risk
+C00786,6,4,3.36,10,"smart tv",asia,delayed,Premium,yes,6,30,5121.00,0,5,medium,unsatisfied,70,high_risk
+C00787,6,3,2.60,5,tablet,europe,delayed,Basic,no,6,35,7951.00,3,3,medium,unsatisfied,70,high_risk
+C00788,6,5,4.97,10,"smart tv",asia,delayed,Standard,yes,7,38,5116.00,2,5,high,neutral,40,medium_risk
+C00789,12,1,4.57,9,desktop,"north america",delayed,Standard,yes,2,32,8405.00,2,5,high,unsatisfied,50,medium_risk
+C00790,6,10,2.25,5,laptop,europe,delayed,Premium,yes,6,66,3821.00,5,4,medium,satisfied,40,medium_risk
+C00791,1,2,0.95,3,"smart tv","north america",delayed,Premium,yes,10,55,5850.00,3,3,low,unsatisfied,100,high_risk
+C00792,6,10,1.49,7,"smart tv","north america",delayed,Basic,no,8,70,9548.00,2,3,low,satisfied,70,high_risk
+C00793,12,4,0.77,3,tablet,asia,delayed,Premium,yes,9,68,8315.00,1,3,low,unsatisfied,100,high_risk
+C00794,6,8,2.48,1,mobile,europe,delayed,Premium,yes,7,29,619.00,0,5,medium,satisfied,40,medium_risk
+C00795,3,8,1.88,10,desktop,"north america",delayed,Basic,no,9,19,4927.00,5,4,low,satisfied,70,high_risk
+C00796,6,6,3.04,2,laptop,"north america",delayed,Standard,no,3,47,6754.00,1,2,medium,neutral,20,low_risk
+C00797,12,5,3.67,6,mobile,asia,delayed,Basic,no,8,66,3855.00,0,3,medium,neutral,40,medium_risk
+C00798,3,1,4.52,6,laptop,africa,delayed,Premium,no,9,58,4392.00,5,4,high,unsatisfied,70,high_risk
+C00799,1,6,1.71,6,laptop,asia,delayed,Standard,no,6,52,3631.00,2,3,low,neutral,70,high_risk
+C00800,24,10,2.13,10,mobile,"south america",delayed,Basic,no,5,42,7320.00,1,4,medium,satisfied,40,medium_risk
+C00801,3,6,4.90,10,laptop,asia,delayed,Standard,yes,4,35,4251.00,0,2,high,neutral,20,low_risk
+C00802,6,6,4.23,1,tablet,africa,delayed,Standard,no,2,69,536.00,3,5,high,neutral,20,low_risk
+C00803,1,7,1.30,5,"smart tv",africa,delayed,Basic,no,4,69,5664.00,1,5,low,neutral,50,medium_risk
+C00804,3,4,0.62,9,mobile,europe,delayed,Standard,no,5,41,7596.00,0,5,low,unsatisfied,100,high_risk
+C00805,12,1,4.14,3,laptop,"north america",delayed,Standard,no,2,19,7479.00,3,3,high,unsatisfied,50,medium_risk
+C00806,1,10,0.52,2,laptop,asia,delayed,Standard,yes,3,46,832.00,4,4,low,satisfied,50,medium_risk
+C00807,12,7,1.33,5,"smart tv","north america",delayed,Standard,yes,10,64,6447.00,5,1,low,neutral,70,high_risk
+C00808,12,3,3.29,3,mobile,africa,delayed,Standard,no,2,20,3854.00,3,4,medium,unsatisfied,50,medium_risk
+C00809,3,6,1.01,8,desktop,europe,delayed,Premium,yes,8,22,2454.00,5,2,low,neutral,70,high_risk
+C00810,24,4,0.87,1,mobile,europe,delayed,Standard,yes,8,54,4695.00,5,1,low,unsatisfied,100,high_risk
+C00811,3,3,2.53,5,"smart tv","south america",delayed,Premium,no,4,53,9374.00,5,1,medium,unsatisfied,50,medium_risk
+C00812,3,2,1.54,6,laptop,europe,delayed,Basic,no,1,57,4930.00,2,5,low,unsatisfied,80,high_risk
+C00813,3,4,4.62,5,"smart tv",europe,delayed,Standard,yes,6,38,2210.00,1,5,high,unsatisfied,70,high_risk
+C00814,3,2,2.11,8,"smart tv",europe,delayed,Basic,no,1,59,9641.00,4,2,medium,unsatisfied,50,medium_risk
+C00815,3,8,1.44,6,mobile,europe,delayed,Premium,no,4,39,7873.00,5,5,low,satisfied,50,medium_risk
+C00816,12,8,3.52,1,laptop,"north america",delayed,Standard,yes,5,64,8920.00,0,3,medium,satisfied,40,medium_risk
+C00817,24,1,2.30,10,mobile,africa,delayed,Premium,yes,7,57,3486.00,3,1,medium,unsatisfied,70,high_risk
+C00818,1,3,3.67,8,mobile,"south america",delayed,Standard,no,7,56,3441.00,4,5,medium,unsatisfied,70,high_risk
+C00819,3,7,3.87,5,laptop,europe,delayed,Standard,no,10,52,8196.00,2,3,medium,neutral,40,medium_risk
+C00820,12,3,1.88,5,laptop,"north america",delayed,Standard,no,7,28,1778.00,2,4,low,unsatisfied,100,high_risk
+C00821,24,7,4.50,6,laptop,europe,delayed,Standard,yes,0,55,3209.00,1,5,high,neutral,20,low_risk
+C00822,6,1,1.28,7,tablet,"south america",delayed,Standard,yes,10,39,8956.00,2,5,low,unsatisfied,100,high_risk
+C00823,3,7,4.91,10,tablet,africa,delayed,Premium,no,8,24,7970.00,3,5,high,neutral,40,medium_risk
+C00824,3,2,1.88,4,tablet,europe,delayed,Standard,yes,10,23,3091.00,2,5,low,unsatisfied,100,high_risk
+C00825,3,4,4.73,10,laptop,"south america",delayed,Standard,yes,0,29,4675.00,5,5,high,unsatisfied,50,medium_risk
+C00826,6,1,3.41,6,mobile,"north america",delayed,Standard,yes,0,48,1849.00,1,1,medium,unsatisfied,50,medium_risk
+C00827,6,9,0.71,2,desktop,asia,delayed,Premium,no,4,67,5761.00,1,3,low,satisfied,50,medium_risk
+C00828,1,1,1.39,10,"smart tv",europe,delayed,Basic,yes,4,37,5571.00,0,3,low,unsatisfied,80,high_risk
+C00829,6,4,4.79,4,laptop,africa,delayed,Standard,no,10,63,2928.00,0,3,high,unsatisfied,70,high_risk
+C00830,3,1,4.42,7,laptop,europe,delayed,Premium,no,3,27,4908.00,2,2,high,unsatisfied,50,medium_risk
+C00831,3,7,3.09,7,tablet,africa,delayed,Standard,yes,8,70,3920.00,0,5,medium,neutral,40,medium_risk
+C00832,24,8,1.36,6,mobile,"north america",delayed,Standard,yes,0,59,5415.00,3,5,low,satisfied,50,medium_risk
+C00833,6,2,1.56,8,tablet,"south america",delayed,Standard,yes,1,38,1814.00,2,4,low,unsatisfied,80,high_risk
+C00834,3,8,4.99,7,laptop,africa,delayed,Standard,yes,8,23,833.00,3,1,high,satisfied,40,medium_risk
+C00835,1,5,2.53,4,tablet,"north america",delayed,Premium,no,6,37,8126.00,5,1,medium,neutral,40,medium_risk
+C00836,24,2,4.08,1,"smart tv",europe,delayed,Basic,yes,7,54,8118.00,4,5,high,unsatisfied,70,high_risk
+C00837,6,3,1.57,10,tablet,africa,delayed,Standard,no,0,28,784.00,2,5,low,unsatisfied,80,high_risk
+C00838,12,5,2.64,1,laptop,africa,delayed,Standard,yes,3,51,4356.00,5,2,medium,neutral,20,low_risk
+C00839,12,9,2.44,2,tablet,africa,delayed,Premium,no,7,30,7188.00,4,4,medium,satisfied,40,medium_risk
+C00840,1,4,1.65,9,desktop,"south america",delayed,Basic,no,10,68,5038.00,0,4,low,unsatisfied,100,high_risk
+C00841,12,3,4.41,7,tablet,europe,delayed,Basic,yes,5,32,4233.00,5,2,high,unsatisfied,70,high_risk
+C00842,12,1,4.48,10,tablet,"south america",delayed,Basic,yes,9,63,4556.00,1,3,high,unsatisfied,70,high_risk
+C00843,24,5,1.25,7,"smart tv","north america",delayed,Standard,no,7,24,9064.00,1,1,low,neutral,70,high_risk
+C00844,3,6,0.89,8,mobile,africa,delayed,Standard,yes,4,70,7605.00,5,4,low,neutral,50,medium_risk
+C00845,12,6,1.63,9,tablet,"south america",delayed,Basic,no,4,43,9262.00,5,4,low,neutral,50,medium_risk
+C00846,12,6,2.97,8,laptop,"north america",delayed,Standard,yes,0,22,7807.00,2,2,medium,neutral,20,low_risk
+C00847,6,2,2.86,3,tablet,asia,delayed,Basic,no,1,63,613.00,0,4,medium,unsatisfied,50,medium_risk
+C00848,3,10,0.81,5,laptop,"north america",delayed,Standard,no,7,19,2286.00,1,5,low,satisfied,70,high_risk
+C00849,3,3,2.44,1,"smart tv",asia,delayed,Basic,no,2,70,8018.00,4,3,medium,unsatisfied,50,medium_risk
+C00850,6,3,3.79,6,mobile,"north america",delayed,Basic,yes,2,44,5669.00,5,4,medium,unsatisfied,50,medium_risk
+C00851,1,1,1.52,4,laptop,"south america",delayed,Basic,no,5,47,4143.00,2,4,low,unsatisfied,100,high_risk
+C00852,6,7,4.42,10,laptop,asia,delayed,Premium,no,5,18,1078.00,2,1,high,neutral,40,medium_risk
+C00853,12,10,1.23,5,desktop,europe,delayed,Basic,no,6,48,4064.00,3,4,low,satisfied,70,high_risk
+C00854,24,9,3.87,5,laptop,europe,delayed,Standard,yes,9,65,6905.00,3,1,medium,satisfied,40,medium_risk
+C00855,1,3,3.58,2,"smart tv","south america",delayed,Premium,yes,7,26,4952.00,0,3,medium,unsatisfied,70,high_risk
+C00856,12,4,3.26,9,desktop,"north america",delayed,Basic,yes,9,32,7795.00,3,1,medium,unsatisfied,70,high_risk
+C00857,24,10,1.23,2,tablet,africa,delayed,Standard,yes,6,64,6381.00,5,2,low,satisfied,70,high_risk
+C00858,24,3,4.17,1,tablet,asia,delayed,Premium,no,10,61,3272.00,3,5,high,unsatisfied,70,high_risk
+C00859,3,2,1.57,2,tablet,"north america",delayed,Basic,no,5,63,8086.00,3,2,low,unsatisfied,100,high_risk
+C00860,6,7,3.41,6,mobile,"north america",delayed,Premium,yes,5,34,3304.00,1,1,medium,neutral,40,medium_risk
+C00861,1,4,2.58,8,laptop,"south america",delayed,Standard,yes,10,53,7319.00,0,5,medium,unsatisfied,70,high_risk
+C00862,3,2,1.93,8,laptop,"south america",delayed,Standard,no,3,25,3421.00,2,2,low,unsatisfied,80,high_risk
+C00863,1,5,3.52,9,laptop,europe,delayed,Basic,yes,4,69,8912.00,3,4,medium,neutral,20,low_risk
+C00864,12,10,3.38,8,desktop,"north america",delayed,Basic,yes,7,61,4385.00,3,4,medium,satisfied,40,medium_risk
+C00865,6,6,3.48,5,tablet,"south america",delayed,Premium,no,8,64,6587.00,5,1,medium,neutral,40,medium_risk
+C00866,3,3,4.47,8,tablet,asia,delayed,Premium,no,1,66,4783.00,2,1,high,unsatisfied,50,medium_risk
+C00867,24,10,2.08,1,mobile,europe,delayed,Premium,no,10,54,3036.00,1,5,medium,satisfied,40,medium_risk
+C00868,12,10,1.60,2,laptop,europe,delayed,Standard,no,0,40,1296.00,2,4,low,satisfied,50,medium_risk
+C00869,12,2,0.77,7,tablet,europe,delayed,Standard,yes,6,36,5453.00,3,2,low,unsatisfied,100,high_risk
+C00870,6,3,2.07,8,tablet,"north america",delayed,Premium,no,8,41,2292.00,5,4,medium,unsatisfied,70,high_risk
+C00871,3,9,3.54,5,mobile,"south america",delayed,Premium,yes,7,52,8616.00,1,2,medium,satisfied,40,medium_risk
+C00872,6,4,2.60,2,tablet,"north america",delayed,Basic,no,4,68,9312.00,0,2,medium,unsatisfied,50,medium_risk
+C00873,24,1,3.42,8,mobile,"north america",delayed,Standard,no,6,61,718.00,3,4,medium,unsatisfied,70,high_risk
+C00874,3,9,3.51,10,mobile,africa,delayed,Basic,yes,5,60,3698.00,2,1,medium,satisfied,40,medium_risk
+C00875,3,1,3.46,10,mobile,"south america",delayed,Premium,yes,5,58,6957.00,0,1,medium,unsatisfied,70,high_risk
+C00876,1,2,4.20,3,laptop,africa,delayed,Standard,yes,3,32,8512.00,4,4,high,unsatisfied,50,medium_risk
+C00877,6,5,3.94,9,laptop,"south america",delayed,Basic,yes,4,28,3468.00,0,2,medium,neutral,20,low_risk
+C00878,24,6,3.43,7,mobile,europe,delayed,Standard,yes,10,40,6164.00,1,5,medium,neutral,40,medium_risk
+C00879,12,6,2.13,2,laptop,asia,delayed,Premium,no,5,42,9238.00,2,5,medium,neutral,40,medium_risk
+C00880,3,8,2.07,2,desktop,"south america",delayed,Premium,yes,8,42,3418.00,4,3,medium,satisfied,40,medium_risk
+C00881,3,9,2.11,1,tablet,"north america",delayed,Premium,yes,1,61,6460.00,1,3,medium,satisfied,20,low_risk
+C00882,24,2,3.27,5,desktop,asia,delayed,Standard,yes,6,18,2279.00,4,4,medium,unsatisfied,70,high_risk
+C00883,12,5,4.76,10,mobile,asia,delayed,Standard,yes,10,40,1857.00,1,4,high,neutral,40,medium_risk
+C00884,12,8,1.94,10,laptop,"north america",delayed,Standard,yes,6,41,7306.00,2,2,low,satisfied,70,high_risk
+C00885,12,6,0.54,4,tablet,europe,delayed,Premium,no,9,52,8732.00,2,4,low,neutral,70,high_risk
+C00886,1,8,3.88,2,desktop,africa,delayed,Standard,no,10,21,8512.00,1,4,medium,satisfied,40,medium_risk
+C00887,24,7,4.34,1,mobile,asia,delayed,Premium,yes,5,37,8565.00,3,4,high,neutral,40,medium_risk
+C00888,12,6,4.08,10,laptop,"south america",delayed,Premium,yes,7,55,3877.00,2,1,high,neutral,40,medium_risk
+C00889,24,9,1.12,2,desktop,"south america",delayed,Basic,no,3,42,5522.00,4,4,low,satisfied,50,medium_risk
+C00890,12,4,4.56,6,"smart tv",europe,delayed,Basic,yes,3,43,3015.00,4,4,high,unsatisfied,50,medium_risk
+C00891,6,4,3.41,5,mobile,"north america",delayed,Premium,yes,4,48,7828.00,0,5,medium,unsatisfied,50,medium_risk
+C00892,6,10,4.82,7,mobile,"south america",delayed,Basic,yes,8,33,9314.00,3,5,high,satisfied,40,medium_risk
+C00893,12,5,0.84,4,desktop,africa,delayed,Basic,yes,5,59,9349.00,1,2,low,neutral,70,high_risk
+C00894,24,4,1.03,6,desktop,"south america",delayed,Basic,yes,3,52,5234.00,2,5,low,unsatisfied,80,high_risk
+C00895,24,8,4.87,9,"smart tv",asia,delayed,Standard,no,7,50,8933.00,5,3,high,satisfied,40,medium_risk
+C00896,24,9,1.31,4,tablet,"north america",delayed,Basic,yes,10,52,7153.00,0,3,low,satisfied,70,high_risk
+C00897,3,6,3.28,8,"smart tv","south america",delayed,Basic,no,10,39,4210.00,1,2,medium,neutral,40,medium_risk
+C00898,3,3,3.23,9,mobile,africa,delayed,Premium,yes,2,33,1672.00,1,2,medium,unsatisfied,50,medium_risk
+C00899,1,7,4.48,9,desktop,europe,delayed,Standard,no,10,43,3953.00,5,5,high,neutral,40,medium_risk
+C00900,6,4,2.58,2,"smart tv",europe,delayed,Basic,no,2,18,7623.00,5,4,medium,unsatisfied,50,medium_risk
+C00901,1,9,0.59,5,laptop,"south america",delayed,Premium,yes,6,33,8367.00,3,1,low,satisfied,70,high_risk
+C00902,12,10,1.18,9,desktop,asia,delayed,Premium,yes,1,39,8065.00,5,3,low,satisfied,50,medium_risk
+C00903,24,10,2.07,10,mobile,"south america",delayed,Basic,yes,1,44,1305.00,0,5,medium,satisfied,20,low_risk
+C00904,6,7,1.98,2,laptop,"north america",delayed,Premium,yes,9,19,6128.00,2,3,low,neutral,70,high_risk
+C00905,24,8,2.72,3,laptop,asia,delayed,Premium,yes,1,26,6216.00,3,4,medium,satisfied,20,low_risk
+C00906,12,8,0.76,2,tablet,europe,delayed,Standard,no,0,47,740.00,3,2,low,satisfied,50,medium_risk
+C00907,3,5,4.85,2,"smart tv","south america",delayed,Basic,yes,2,59,5158.00,5,3,high,neutral,20,low_risk
+C00908,24,10,3.28,1,tablet,"south america",delayed,Standard,no,0,67,4137.00,4,3,medium,satisfied,20,low_risk
+C00909,24,6,2.07,3,laptop,"north america",delayed,Standard,yes,2,68,9248.00,4,5,medium,neutral,20,low_risk
+C00910,12,4,4.43,8,desktop,"north america",delayed,Standard,no,3,37,5272.00,3,1,high,unsatisfied,50,medium_risk
+C00911,1,9,3.32,3,tablet,africa,delayed,Standard,no,10,43,3179.00,4,2,medium,satisfied,40,medium_risk
+C00912,6,8,3.71,9,laptop,africa,delayed,Premium,yes,9,55,9437.00,1,4,medium,satisfied,40,medium_risk
+C00913,24,3,2.72,4,tablet,europe,delayed,Basic,yes,7,27,1216.00,0,4,medium,unsatisfied,70,high_risk
+C00914,1,9,2.04,9,mobile,africa,delayed,Premium,yes,9,57,4531.00,3,1,medium,satisfied,40,medium_risk
+C00915,6,8,2.74,7,laptop,europe,delayed,Basic,yes,3,35,3878.00,3,4,medium,satisfied,20,low_risk
+C00916,12,2,2.02,2,"smart tv",africa,delayed,Basic,yes,1,51,8626.00,1,3,medium,unsatisfied,50,medium_risk
+C00917,24,5,1.86,9,tablet,asia,delayed,Premium,no,1,67,5127.00,0,4,low,neutral,50,medium_risk
+C00918,6,7,4.43,3,mobile,europe,delayed,Basic,yes,5,56,5615.00,0,2,high,neutral,40,medium_risk
+C00919,24,5,2.28,5,"smart tv",africa,delayed,Basic,yes,5,66,6308.00,1,2,medium,neutral,40,medium_risk
+C00920,6,2,1.09,2,desktop,"north america",delayed,Standard,no,2,47,6362.00,4,3,low,unsatisfied,80,high_risk
+C00921,12,1,1.79,1,tablet,asia,delayed,Standard,no,2,24,9249.00,2,1,low,unsatisfied,80,high_risk
+C00922,6,2,4.61,10,"smart tv",asia,delayed,Basic,yes,3,32,9386.00,0,2,high,unsatisfied,50,medium_risk
+C00923,12,9,0.99,10,"smart tv",asia,delayed,Standard,yes,7,40,3209.00,3,5,low,satisfied,70,high_risk
+C00924,12,1,4.34,9,desktop,asia,delayed,Basic,yes,1,18,3383.00,3,1,high,unsatisfied,50,medium_risk
+C00925,1,4,2.38,1,tablet,africa,delayed,Basic,no,2,39,6247.00,0,2,medium,unsatisfied,50,medium_risk
+C00926,24,3,4.12,10,"smart tv",africa,delayed,Premium,yes,1,70,8355.00,0,4,high,unsatisfied,50,medium_risk
+C00927,1,1,3.98,7,tablet,africa,delayed,Premium,yes,0,30,5936.00,0,2,medium,unsatisfied,50,medium_risk
+C00928,6,8,1.56,3,"smart tv",africa,delayed,Basic,yes,5,28,9395.00,1,2,low,satisfied,70,high_risk
+C00929,24,8,0.56,10,mobile,"north america",delayed,Basic,yes,5,26,9011.00,4,1,low,satisfied,70,high_risk
+C00930,6,2,1.00,10,desktop,"north america",delayed,Premium,no,0,56,1556.00,0,4,low,unsatisfied,80,high_risk
+C00931,1,6,2.32,2,laptop,asia,delayed,Premium,yes,8,67,6953.00,4,2,medium,neutral,40,medium_risk
+C00932,12,3,2.84,9,desktop,europe,delayed,Standard,no,0,70,3578.00,4,4,medium,unsatisfied,50,medium_risk
+C00933,3,2,2.78,2,"smart tv",europe,delayed,Standard,no,1,60,1367.00,0,4,medium,unsatisfied,50,medium_risk
+C00934,3,7,2.95,1,"smart tv",africa,delayed,Standard,no,3,50,9936.00,3,4,medium,neutral,20,low_risk
+C00935,12,8,0.68,1,tablet,europe,delayed,Basic,yes,9,20,8243.00,4,1,low,satisfied,70,high_risk
+C00936,6,2,1.97,5,"smart tv","south america",delayed,Basic,no,9,62,5194.00,1,1,low,unsatisfied,100,high_risk
+C00937,12,5,1.21,6,laptop,"north america",delayed,Standard,yes,9,28,3052.00,5,1,low,neutral,70,high_risk
+C00938,1,2,1.22,3,"smart tv","south america",delayed,Premium,yes,10,68,888.00,2,4,low,unsatisfied,100,high_risk
+C00939,24,9,1.78,10,"smart tv",europe,delayed,Standard,no,6,36,3339.00,2,5,low,satisfied,70,high_risk
+C00940,3,6,3.81,2,mobile,africa,delayed,Premium,yes,3,35,1740.00,1,4,medium,neutral,20,low_risk
+C00941,6,6,2.37,7,"smart tv",asia,delayed,Standard,no,9,43,7748.00,5,1,medium,neutral,40,medium_risk
+C00942,3,5,4.71,9,desktop,"north america",delayed,Standard,no,8,45,2410.00,3,2,high,neutral,40,medium_risk
+C00943,6,5,3.42,8,mobile,"north america",delayed,Standard,no,2,28,6611.00,1,1,medium,neutral,20,low_risk
+C00944,1,10,2.00,7,desktop,"south america",delayed,Standard,no,9,37,5875.00,2,2,medium,satisfied,40,medium_risk
+C00945,6,1,1.40,4,tablet,asia,delayed,Standard,no,3,52,7519.00,0,2,low,unsatisfied,80,high_risk
+C00946,3,4,2.34,7,mobile,"north america",delayed,Standard,no,6,26,966.00,5,2,medium,unsatisfied,70,high_risk
+C00947,24,5,4.56,3,laptop,asia,delayed,Standard,no,5,48,9667.00,2,1,high,neutral,40,medium_risk
+C00948,1,6,1.26,4,desktop,"north america",delayed,Standard,yes,9,63,3085.00,4,4,low,neutral,70,high_risk
+C00949,1,9,4.38,10,tablet,europe,delayed,Basic,no,1,31,5834.00,0,3,high,satisfied,20,low_risk
+C00950,6,6,3.23,5,mobile,"north america",delayed,Premium,no,3,19,7040.00,0,2,medium,neutral,20,low_risk
+C00951,3,4,4.26,10,tablet,"south america",delayed,Basic,yes,10,22,1461.00,4,5,high,unsatisfied,70,high_risk
+C00952,3,10,0.57,6,mobile,asia,delayed,Basic,no,7,63,7179.00,2,3,low,satisfied,70,high_risk
+C00953,3,8,4.89,6,tablet,"north america",delayed,Premium,no,5,40,9834.00,0,2,high,satisfied,40,medium_risk
+C00954,3,8,3.43,5,desktop,europe,delayed,Basic,yes,4,36,719.00,0,3,medium,satisfied,20,low_risk
+C00955,12,8,2.67,7,"smart tv","south america",delayed,Standard,yes,10,70,6860.00,2,1,medium,satisfied,40,medium_risk
+C00956,24,1,2.41,8,tablet,europe,delayed,Basic,yes,7,32,7936.00,5,5,medium,unsatisfied,70,high_risk
+C00957,6,5,4.55,9,"smart tv","south america",delayed,Basic,yes,6,62,3220.00,5,1,high,neutral,40,medium_risk
+C00958,1,2,3.99,5,tablet,europe,delayed,Standard,yes,0,30,3822.00,1,2,medium,unsatisfied,50,medium_risk
+C00959,1,10,4.83,1,mobile,"south america",delayed,Standard,no,3,19,4538.00,5,2,high,satisfied,20,low_risk
+C00960,1,1,1.12,8,mobile,asia,delayed,Standard,yes,8,28,8147.00,0,1,low,unsatisfied,100,high_risk
+C00961,6,2,4.67,8,tablet,"south america",delayed,Premium,no,7,21,8656.00,3,1,high,unsatisfied,70,high_risk
+C00962,3,4,1.39,6,"smart tv",asia,delayed,Basic,no,0,70,4419.00,0,4,low,unsatisfied,80,high_risk
+C00963,12,3,1.01,10,tablet,africa,delayed,Premium,yes,4,47,6672.00,2,4,low,unsatisfied,80,high_risk
+C00964,24,6,3.45,5,"smart tv",asia,delayed,Standard,no,6,51,9948.00,2,3,medium,neutral,40,medium_risk
+C00965,6,2,3.17,8,tablet,"south america",delayed,Premium,no,10,60,5559.00,4,5,medium,unsatisfied,70,high_risk
+C00966,12,1,4.44,1,tablet,europe,delayed,Premium,yes,10,24,4275.00,3,4,high,unsatisfied,70,high_risk
+C00967,6,5,2.76,4,desktop,"south america",delayed,Premium,yes,6,36,2426.00,3,1,medium,neutral,40,medium_risk
+C00968,24,8,0.59,7,tablet,africa,delayed,Premium,yes,8,39,3205.00,0,1,low,satisfied,70,high_risk
+C00969,6,6,3.54,1,laptop,europe,delayed,Basic,no,9,45,4216.00,5,5,medium,neutral,40,medium_risk
+C00970,24,4,4.80,1,tablet,europe,delayed,Premium,no,4,32,5261.00,1,1,high,unsatisfied,50,medium_risk
+C00971,3,9,3.71,2,mobile,africa,delayed,Premium,yes,3,18,8288.00,1,2,medium,satisfied,20,low_risk
+C00972,6,8,2.49,5,tablet,africa,delayed,Basic,yes,7,22,3953.00,1,4,medium,satisfied,40,medium_risk
+C00973,3,4,0.76,7,desktop,"north america",delayed,Standard,yes,10,29,8744.00,4,1,low,unsatisfied,100,high_risk
+C00974,6,5,2.24,1,tablet,"north america",delayed,Premium,yes,8,59,3401.00,4,3,medium,neutral,40,medium_risk
+C00975,6,2,4.93,10,desktop,europe,delayed,Basic,yes,3,58,8545.00,2,5,high,unsatisfied,50,medium_risk
+C00976,24,4,2.25,2,tablet,"north america",delayed,Basic,no,4,26,9952.00,2,1,medium,unsatisfied,50,medium_risk
+C00977,3,2,1.35,4,"smart tv","south america",delayed,Basic,no,4,38,4086.00,3,5,low,unsatisfied,80,high_risk
+C00978,6,8,3.23,2,"smart tv",asia,delayed,Standard,yes,4,59,6250.00,2,4,medium,satisfied,20,low_risk
+C00979,3,5,2.47,8,desktop,"north america",delayed,Basic,no,8,57,2270.00,0,2,medium,neutral,40,medium_risk
+C00980,12,1,0.53,3,"smart tv",africa,delayed,Standard,yes,9,42,3548.00,4,5,low,unsatisfied,100,high_risk
+C00981,6,6,3.47,10,mobile,asia,delayed,Basic,no,0,47,4824.00,3,5,medium,neutral,20,low_risk
+C00982,6,8,4.86,6,desktop,africa,delayed,Premium,yes,0,42,7654.00,1,1,high,satisfied,20,low_risk
+C00983,12,2,3.46,10,desktop,asia,delayed,Premium,no,4,46,1777.00,3,2,medium,unsatisfied,50,medium_risk
+C00984,1,4,4.53,6,tablet,africa,delayed,Basic,no,5,22,8637.00,2,4,high,unsatisfied,70,high_risk
+C00985,24,4,1.19,8,laptop,europe,delayed,Basic,yes,10,39,1547.00,4,4,low,unsatisfied,100,high_risk
+C00986,12,9,4.84,3,tablet,africa,delayed,Basic,yes,9,68,7245.00,0,4,high,satisfied,40,medium_risk
+C00987,24,8,4.08,10,mobile,africa,delayed,Premium,yes,5,41,1067.00,3,1,high,satisfied,40,medium_risk
+C00988,12,5,3.55,4,desktop,europe,delayed,Basic,yes,4,64,9343.00,4,5,medium,neutral,20,low_risk
+C00989,1,6,4.13,7,desktop,"north america",delayed,Standard,no,1,23,1406.00,0,2,high,neutral,20,low_risk
+C00990,12,6,1.42,7,mobile,"south america",delayed,Basic,no,1,46,6616.00,2,2,low,neutral,50,medium_risk
+C00991,3,4,4.67,5,mobile,africa,delayed,Standard,no,10,53,5459.00,5,2,high,unsatisfied,70,high_risk
+C00992,1,5,4.76,7,tablet,europe,delayed,Basic,no,7,39,7811.00,1,4,high,neutral,40,medium_risk
+C00993,12,3,1.48,4,desktop,africa,delayed,Basic,yes,6,42,4500.00,4,4,low,unsatisfied,100,high_risk
+C00994,24,10,0.89,9,mobile,"south america",delayed,Standard,yes,9,52,7379.00,4,4,low,satisfied,70,high_risk
+C00995,6,5,3.64,8,laptop,europe,delayed,Standard,no,0,50,3456.00,5,5,medium,neutral,20,low_risk
+C00996,1,4,0.77,10,tablet,europe,delayed,Standard,no,5,28,772.00,1,4,low,unsatisfied,100,high_risk
+C00997,1,2,2.66,2,mobile,"south america",delayed,Standard,yes,3,54,588.00,4,1,medium,unsatisfied,50,medium_risk
+C00998,6,2,2.36,10,mobile,africa,delayed,Standard,no,7,62,577.00,4,1,medium,unsatisfied,70,high_risk
+C00999,3,6,1.73,3,laptop,asia,delayed,Basic,no,1,38,3684.00,0,4,low,neutral,50,medium_risk
+C01000,1,6,1.94,4,mobile,"south america",delayed,Premium,no,8,23,3023.00,2,4,low,neutral,70,high_risk
