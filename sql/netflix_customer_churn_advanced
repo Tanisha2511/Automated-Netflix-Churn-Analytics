@@ -1,1 +1,14 @@
+-- =============================================
+-- Project: Automated Netflix Churn Analytics
+-- File: netflix_customer_churn_advanced.sql
+-- Author: Tanisha
+-- Purpose: This SQL file contains all queries used for:
+--          1. Cleaning raw Netflix customer data
+--          2. Transforming and preparing data for analysis
+--          3. Performing advanced churn analysis
+--          4. Aggregating insights by subscription, region, and engagement
+--
+-- Note: Actual SQL queries will be added here.
+-- This is a placeholder to indicate the purpose of this file.
+-- =============================================
 
